@@ -22,7 +22,7 @@ I am currently working on the following papers:
 -->
 
 ## Links to published work
-You can find my research work on <a href='http://goo.gl/aZpRAe' target='_blank'>Google Scholar</a> and <a href='https://www.researchgate.net/profile/Marco_Virgolin' target='_blank'>Research Gate</a> 
+You can find my research work on <a href='https://goo.gl/NSAjbT' target='_blank'>Google Scholar</a> and <a href='https://www.researchgate.net/profile/Marco_Virgolin' target='_blank'>Research Gate</a> 
 
 
 ## More info

@@ -28,7 +28,7 @@ My supervisors are <a href="https://homepages.cwi.nl/~bosman/" target="_blank">P
       <a href='http://github.com/marcovirgolin' target='_blank'>github.com/marcovirgolin</a> 
     </li>
     <li><img src='pics/logos/google-scholar-logo.png'  style='height:2rem;'> 
-      <a href='http://goo.gl/aZpRAe' target='_blank'>goo.gl/aZpRAe</a> 
+      <a href='https://goo.gl/NSAjbT' target='_blank'>goo.gl/NSAjbT</a> 
     </li>
     <li><img src='pics/logos/researchgate-logo.png'  style='height:2rem;'> 
       <a href='https://www.researchgate.net/profile/Marco_Virgolin' target='_blank'>researchgate.net/profile/marco_virgolin</a> 
