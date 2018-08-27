@@ -9,7 +9,7 @@ layout: default
 </div>
 
 I am a PhD student working on Evolutionary Machine Learning at the 
-[Life Sciences and Health Group](https://www.cwi.nl/research/groups/life-sciences-and-health) of [Centrum Wiskunde & Informatica](https://www.cwi.nl), in Amsterdam. I collaborate with the <a href="https://www.amc.nl/web/research-75/department/radiotherapy-1.htm" target="_blank">Radiotherapy Department</a> of the <a href="https://www.amc.nl/web/home.htm" target="_blank">Amsterdam University Medical Center</a>, and will defend my research work at the <a href="http://www.tudelft.nl" target="_blank">Technical University of Delft</a>.
+[Life Sciences and Health Group](https://www.cwi.nl/research/groups/life-sciences-and-health) of [Centrum Wiskunde & Informatica](https://www.cwi.nl), in Amsterdam. I collaborate with the <a href="https://www.amc.nl/web/research-75/department/radiotherapy-1.htm" target="_blank">Radiotherapy Department</a> of the <a href="https://www.amc.nl/web/home.htm" target="_blank">Amsterdam University Medical Center</a>, and will defend my research work at the <a href="http://www.tudelft.nl" target="_blank">Delft University of Technology</a>.
 
 My supervisors are <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> and <a href="https://www.amc.nl/web/research-75/department/dr.-t.-alderliesten-phd.htm" target="_blank">Tanja Alderliesten</a>.
 
