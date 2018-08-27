@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
+# About
 
 <div id='pic-cointainer'  style='float:right; width:25%; margin-left:4%'>
   <img src='pics/profpic.jpg' alg='profile-pic'>
