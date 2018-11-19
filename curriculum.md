@@ -51,7 +51,7 @@ I helped with the organization of recreational international summer schools and 
 
 ## Talks
 - _Symbolic regression and feature construction with GP-GOMEA applied to radiotherapy dose reconstruction of childhood cancer survivors_ @ GECCO 2018 in Kyoto, Japan
-- _Machine Learning to Select Representative CT scans for Radiotherapy Dose Reconstruction_ @ Radiotherapy Meetings 2018 @ University Medical Center of Amsterdam, Amsterdam, the Netherlands
+- _Machine Learning to Select Representative CT scans for Radiotherapy Dose Reconstruction_ @ Radiotherapy Meetings 2018, University Medical Center of Amsterdam, Amsterdam, the Netherlands
 - _Automatic retrieval of similar patients by Machine Learning for 3D dose reconstruction_ @ Scientific Project Day 2017, University Medical Center Utrecht, Utrecht, the Netherlands
 - _Exploiting Machine Learning to Understand Similarity among Children: A First Step Towards Highly Individualized 3D Dose Reconstruction_ @ Life Sciences and Health Seminars 2017, Centrum Wiskunde en Informatica, Amsterdam, the Netherlands
 - _Scalable genetic programming by gene-pool optimal mixing and input-space entropy-based building-block learning_ @ GECCO 2017 in Berlin, Germany 
