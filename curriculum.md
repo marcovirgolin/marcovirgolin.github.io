@@ -50,6 +50,7 @@ I helped with the organization of recreational international summer schools and 
 
 
 ## Talks
+- _Explainable, Evolutionary Machine Learning for Highly Individualized Radiation Dose Reconstruction_ @ Amsterdam Data Science 2018 Highlights, Amsterdam
 - _Symbolic regression and feature construction with GP-GOMEA applied to radiotherapy dose reconstruction of childhood cancer survivors_ @ GECCO 2018 in Kyoto, Japan
 - _Machine Learning to Select Representative CT scans for Radiotherapy Dose Reconstruction_ @ Radiotherapy Meetings 2018, University Medical Center of Amsterdam, Amsterdam, the Netherlands
 - _Automatic retrieval of similar patients by Machine Learning for 3D dose reconstruction_ @ Scientific Project Day 2017, University Medical Center Utrecht, Utrecht, the Netherlands
