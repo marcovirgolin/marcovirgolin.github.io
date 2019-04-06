@@ -33,23 +33,13 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
 @ Technical University of Delft, Delft, the Netherlands
 
 
-## Other Experience
-- ### 2017 **Electronic Media Chair for GECCO 2017**
-I worked on back-end, front-end, and maintance of the website and social pages of the <a href="http://gecco-2017.sigevo.org/index.html" target="_blank">Genetic and Evolutionary Computation Conference 2017</a>. A particular contribution is the proposal of a new style for the website of the conference.
-
-- ### 2014 - 2015 **Voluteer for ASsociazione TRiestina Ospedaliera (ASTRO)**
-I was keeping company and entertaining hospitalized children at the pediatric hospital "Burlo Garofalo" in Trieste, Italy
-
-- ### 2012 - 2014 **Member of Electronical Engineering STudents' European assoCiation (EESTEC)**
-I helped with the organization of recreational international summer schools and was first responsible for the organization of few events, among which a seminar on job opportunities after the studies (_What's Next_, speakers eng. Erni Durdevic, eng. Giorgio Faustini, prof. Eric Medvet), and a seminar on Machine Learning (_Machine Learning_, speaker dr. Andrea de Lorenzo).
-
-
 ## Awards
 - ACM Travel Grant for GECCO 2018 in Kyoto, Japan
 - ACM Travel Grant for GECCO 2017 in Berlin, Germany
 
 ## Services
 - Reviewer for: IEEE Transactions on Evolutionary Computation
+- Organizer for: GECCO 2017 (Electronic Media Chair)
 
 ## Talks
 - _Explainable, Evolutionary Machine Learning for Highly Individualized Radiation Dose Reconstruction_ @ Amsterdam Data Science 2018 Highlights, Amsterdam
@@ -58,3 +48,14 @@ I helped with the organization of recreational international summer schools and 
 - _Automatic retrieval of similar patients by Machine Learning for 3D dose reconstruction_ @ Scientific Project Day 2017, University Medical Center Utrecht, Utrecht, the Netherlands
 - _Exploiting Machine Learning to Understand Similarity among Children: A First Step Towards Highly Individualized 3D Dose Reconstruction_ @ Life Sciences and Health Seminars 2017, Centrum Wiskunde en Informatica, Amsterdam, the Netherlands
 - _Scalable genetic programming by gene-pool optimal mixing and input-space entropy-based building-block learning_ @ GECCO 2017 in Berlin, Germany 
+
+
+## Other Experience
+- ### 2017 **Electronic Media Chair for GECCO 2017**
+I worked on back-end, front-end, and maintance of the website and social pages of the <a href="http://gecco-2017.sigevo.org/index.html" target="_blank">Genetic and Evolutionary Computation Conference 2017</a>. A noteworthy contribution is the proposal of a new style that would fit and modernize the website of the conference (<a href="https://colorlib.com/wp/themes/shapely/" target="_blank">shapely theme</a>). From 2017 onwards, GECCO's website has a new face :) 
+
+- ### 2014 - 2015 **Voluteer for ASsociazione TRiestina Ospedaliera (ASTRO)**
+I was keeping company and entertaining hospitalized children at the pediatric hospital "Burlo Garofalo" in Trieste, Italy
+
+- ### 2012 - 2014 **Member of Electronical Engineering STudents' European assoCiation (EESTEC)**
+I helped with the organization of recreational international summer schools and was first responsible for the organization of few events, among which a seminar on job opportunities after the studies (_What's Next_, speakers eng. Erni Durdevic, eng. Giorgio Faustini, prof. Eric Medvet), and a seminar on Machine Learning (_Machine Learning_, speaker dr. Andrea de Lorenzo).
