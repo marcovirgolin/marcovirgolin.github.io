@@ -48,6 +48,8 @@ I helped with the organization of recreational international summer schools and 
 - ACM Travel Grant for GECCO 2018 in Kyoto, Japan
 - ACM Travel Grant for GECCO 2017 in Berlin, Germany
 
+## Services
+- Reviewer for: IEEE Transactions on Evolutionary Computation
 
 ## Talks
 - _Explainable, Evolutionary Machine Learning for Highly Individualized Radiation Dose Reconstruction_ @ Amsterdam Data Science 2018 Highlights, Amsterdam
