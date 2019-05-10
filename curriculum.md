@@ -27,7 +27,7 @@ _Promoscience S.R.L._, Area Science Park, Padriciano, Italy
 
 
 ## Teaching Experience
-- ### 2019 **Teaching assistance on Evolutionary Algorithms course***
+- ### 2019 **Teaching assistance on Evolutionary Algorithms course**
 Teaching assistance for excercise hours, and lecturer for a lecture on Genetic Programming @ Technical University of Delft, Delft, the Netherlands
 - ### 2018 **MSc Thesis assistance** 
 Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided Evolution for Symbolic Regression</em> @ University of Utrecht, Utrecht, the Netherlands 
@@ -36,7 +36,7 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
 
 
 ## Awards
-- ACM Travel Grant for GECCO 2017 (Berlin, Germany), GECCO 2018 (Kyoto, Japan), GECCO 2019 (Prague, Czech Republic)
+- ACM Travel Grants for GECCO 2017 (Berlin, Germany), GECCO 2018 (Kyoto, Japan), GECCO 2019 (Prague, Czech Republic)
 
 
 ## Services
