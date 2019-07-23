@@ -45,6 +45,7 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
 - Organizer for: GECCO 2017 (Electronic Media Chair)
 
 ## Talks
+- _Linear Scaling with and within Semantic Backpropagation-based Genetic Programming for Symbolic Regression_ @ GECCO 2019 in Prague, Czech Republic
 - _Explainable, Evolutionary Machine Learning for Highly Individualized Radiation Dose Reconstruction_ @ Amsterdam Data Science 2018 Highlights, Amsterdam
 - _Symbolic regression and feature construction with GP-GOMEA applied to radiotherapy dose reconstruction of childhood cancer survivors_ @ GECCO 2018 in Kyoto, Japan
 - _Machine Learning to Select Representative CT scans for Radiotherapy Dose Reconstruction_ @ Radiotherapy Meetings 2018, University Medical Center of Amsterdam, Amsterdam, the Netherlands
