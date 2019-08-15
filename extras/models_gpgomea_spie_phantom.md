@@ -4,7 +4,6 @@
 
 Examples of the mathematical expression models found by GP-GOMEA for the automatic construction of pediatric abdominal phantoms are reported below.
 Each model pertains to a particular metric, and has been manually re-arranged to aid readability. 
-These models are obtained by training on the whole dataset. Since GP-GOMEA is stochastic, we perfomed 10 repetitions, and considered the most occurring model (often the models change by few decimals in the randomly sampled constants, in which case we report the mean of such constants).
 The features and the target metrics are normalized (as described in Sec. 2.3.1 of the article).
 To apply the model in practice, each feature needs to be de-normalized, i.e., scaled by the standard deviation and translated by the mean. Furthermore, the output of the model needs to be de-normalized as well, i.e., scaled and translated by the standard deviation and the mean of the target variable, respectively (this information is available in Table 1 of the article).
 We do not include these de-normalization coefficients in the models for the sake of readability. Also, since normalized features are approximately in the same scale, the magnitude of the coefficients included in the model can be associated with feature relevance.
