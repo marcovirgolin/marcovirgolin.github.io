@@ -42,7 +42,7 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
 
 ## Services
 - Reviewer for: IEEE Transactions on Evolutionary Computation
-- Session chair for the Symposium on Evolutionary Intelligence "<a href="http://bit.ly/2k2XKMq", target="_blank">Back to the Future and Beyond - Transversing the Ever-Evolving Landscape of Evolutionary Algorithms</a>"
+- Session chair for the Symposium on Evolutionary Intelligence "[*Back to the Future and Beyond - Transversing the Ever-Evolving Landscape of Evolutionary Algorithms*](http://bit.ly/2k2XKMq)"
 - Organizer for: GECCO 2017 (Electronic Media Chair)
 
 ## Talks
