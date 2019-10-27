@@ -18,9 +18,9 @@ For the meaning of the abbreviations, see Table 1 in the article.
 * **Liver IS** : <code> 0.179 * ADLR + GEND * RDIS </code>
 * **Liver S** : <code> (ADLR + SCIS) / sqrt(0.100 + (4.389 + LDLR)^2) </code>
 * **Spleen LR** : <code> -0.821 * LDLR / sqrt(LDLR^2 + 0.100 * ICSC^2 + 0.010) </code>
-* **Spleen LR** : <code> -0.285 * ICSC / sqrt(0.100 + (AGE + ADAP)^2) </code>
-* **Spleen LR** : <code> AGE / sqrt((0.100 + HEIG^2) * (9.673 - 6.188 * WEIG + WEIG^2)) </code>
-* **Spleen LR** : <code> 2.718^AGE * 0.057 * SCIS</code>
+* **Spleen AP** : <code> -0.285 * ICSC / sqrt(0.100 + (AGE + ADAP)^2) </code>
+* **Spleen IS** : <code> AGE / sqrt((0.100 + HEIG^2) * (9.673 - 6.188 * WEIG + WEIG^2)) </code>
+* **Spleen S** : <code> 2.718^AGE * 0.057 * SCIS</code>
 
 
 ## Examples of interpretation
