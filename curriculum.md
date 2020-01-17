@@ -17,7 +17,6 @@ I graduated with full marks and honors (110/110 cum laude). Thesis titled _Class
 _University of Trieste_, Trieste, Italy
 
 
-
 ## Work Experience
 - ### 2014 **Intern**
 _Machine Learning Lab of the University of Trieste_, Trieste, Italy
@@ -39,15 +38,16 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
 ## Awards
 - ACM Travel Grants for GECCO 2017 (Berlin, Germany), GECCO 2018 (Kyoto, Japan), GECCO 2019 (Prague, Czech Republic)
 
-
 ## Services
 - Reviewer for: IEEE Transactions on Evolutionary Computation
 - Session chair for the Symposium on Evolutionary Intelligence "[*Back to the Future and Beyond - Transversing the Ever-Evolving Landscape of Evolutionary Algorithms*](http://bit.ly/2k2XKMq)"
 - Organizer for: GECCO 2017 (Electronic Media Chair)
 
-## Talks
+## Notable Talks
+- _Highly-individualized dose reconstruction for pediatric abdominal radiotherapy with machine learning_ @ ESTRO 2020, Vienna, Austria (scheduled to happen in April 2020)
+- _Evolutionary Machine Learning for 3D Radiation Dose Reconstruction_ @ Delft AI Meetup Jan 2020, Delft, the Netherlands
 - _Linear Scaling with and within Semantic Backpropagation-based Genetic Programming for Symbolic Regression_ @ GECCO 2019 in Prague, Czech Republic
-- _Explainable, Evolutionary Machine Learning for Highly Individualized Radiation Dose Reconstruction_ @ Amsterdam Data Science 2018 Highlights, Amsterdam
+- _Explainable, Evolutionary Machine Learning for Highly Individualized Radiation Dose Reconstruction_ @ Amsterdam Data Science 2018 Highlights, Amsterdam, the Netherlands
 - _Symbolic regression and feature construction with GP-GOMEA applied to radiotherapy dose reconstruction of childhood cancer survivors_ @ GECCO 2018 in Kyoto, Japan
 - _Machine Learning to Select Representative CT scans for Radiotherapy Dose Reconstruction_ @ Radiotherapy Meetings 2018, University Medical Center of Amsterdam, Amsterdam, the Netherlands
 - _Automatic retrieval of similar patients by Machine Learning for 3D dose reconstruction_ @ Scientific Project Day 2017, University Medical Center Utrecht, Utrecht, the Netherlands
