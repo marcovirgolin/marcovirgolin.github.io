@@ -4,9 +4,13 @@ permalink: /curriculum
 ---
 # Curriculum Vitae
 ## Education
+- ### 2019 - _Ongoing_ **Project Researcher** 
+_Centrum Wiskunde en Informatica_, Amsterdam, the Netherlands.
+With prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. 
+
 - ### 2015 - _Ongoing_ **PhD Student** 
 _Centrum Wiskunde en Informatica_, Amsterdam, the Netherlands.
-I am working on Evolutionary Machine Learning under the supervision of prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam.
+I am working on Evolutionary Machine Learning under the supervision of prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. The defence is expected to happen between June and September 2020.
 
 - ### 2013 - 2015 **Master in Computer Engineering**
 _University of Trieste_, Trieste, Italy. 
@@ -26,13 +30,15 @@ _Promoscience S.R.L._, Area Science Park, Padriciano, Italy
 
 
 ## Teaching Experience
+- ### Ongoing **MSc Thesis co-supervision** 
+Thesis by Tom den Ottelander on Evolutionary Neural Artchitecture Search @ Centrum Wiskunde & Informatica, Amsterdam, the Netherlands
 - ### 2019 **Teaching assistance on Evolutionary Algorithms course**
 Assistance for excercise hours, design and correction of (part of) practical assignments and exam questions. 
-Lecturer for a full lecture on Genetic Programming @ Technical University of Delft, Delft, the Netherlands
-- ### 2018 **MSc Thesis assistance** 
+Lecturer for a full lecture on Genetic Programming @ Delft University of Technology, Delft, the Netherlands
+- ### 2018 **MSc Thesis co-supervision** 
 Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided Evolution for Symbolic Regression</em> @ University of Utrecht, Utrecht, the Netherlands 
 - ### 2017 **Bachelor Seminar Course - Track: <em>Genetic Programming</em>** 
-@ Technical University of Delft, Delft, the Netherlands
+@ Delft University of Technology, Delft, the Netherlands
 
 
 ## Awards
