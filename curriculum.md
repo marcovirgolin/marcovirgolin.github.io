@@ -50,7 +50,8 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
 - Organizer for: GECCO 2017 (Electronic Media Chair)
 
 ## Notable Talks
-- _Highly-individualized dose reconstruction for pediatric abdominal radiotherapy with machine learning_ @ ESTRO 2020, Vienna, Austria (scheduled to happen in April 2020)
+- _Highly-Individualized Dose Reconstruction for Pediatric Abdominal Radiotherapy with Machine Learning_ @ ESTRO 2020, Vienna, Austria (scheduled to happen in April 2020)
+- _Giving Sight to Recombination for More Scalable Genetic Programming_ @ Visit to ALFA group Feb 2020, Computer Science & Artificial Intelligence Lab, MIT, Boston, USA
 - _Evolutionary Machine Learning for 3D Radiation Dose Reconstruction_ @ Delft AI Meetup Jan 2020, Delft, the Netherlands
 - _Linear Scaling with and within Semantic Backpropagation-based Genetic Programming for Symbolic Regression_ @ GECCO 2019 in Prague, Czech Republic
 - _Explainable, Evolutionary Machine Learning for Highly Individualized Radiation Dose Reconstruction_ @ Amsterdam Data Science 2018 Highlights, Amsterdam, the Netherlands
