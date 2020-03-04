@@ -45,9 +45,13 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
 - ACM Travel Grants for GECCO 2017 (Berlin, Germany), GECCO 2018 (Kyoto, Japan), GECCO 2019 (Prague, Czech Republic)
 
 ## Services
-- Reviewer for: IEEE Transactions on Evolutionary Computation
-- Session chair for the Symposium on Evolutionary Intelligence "[*Back to the Future and Beyond - Transversing the Ever-Evolving Landscape of Evolutionary Algorithms*](http://bit.ly/2k2XKMq)"
-- Organizer for: GECCO 2017 (Electronic Media Chair)
+- Journals: 
+  - Reviewer for IEEE Transactions on Evolutionary Computation (since 2019)
+- Conferences: 
+  - Reviewer for Parallel Problem Solving in Nature (2020)
+  - Organizer (Electronic Media Chair) for: Genetic and Evolutionary Computation Conference (2017)
+- Other: 
+  - Session chair for the Symposium on Evolutionary Intelligence "[*Back to the Future and Beyond - Traversing the Ever-Evolving Landscape of Evolutionary Algorithms*](http://bit.ly/2k2XKMq)" (2019)
 
 ## Notable Talks
 - _Highly-Individualized Dose Reconstruction for Pediatric Abdominal Radiotherapy with Machine Learning_ @ ESTRO 2020, Vienna, Austria (scheduled to happen in April 2020)
