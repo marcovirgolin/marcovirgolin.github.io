@@ -4,13 +4,13 @@ permalink: /curriculum
 ---
 # Curriculum Vitae
 ## Education
-- ### 2019 - _Ongoing_ **Project Researcher** 
+- ### 2019 - 2020 **Project Researcher** 
 _Centrum Wiskunde en Informatica_, Amsterdam, the Netherlands.
-With prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. 
+I worked on Neuroevolution with prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. 
 
-- ### 2015 - _Ongoing_ **PhD Student** 
+- ### 2015 - 2020 **PhD Student** 
 _Centrum Wiskunde en Informatica_, Amsterdam, the Netherlands.
-I am working on Evolutionary Machine Learning under the supervision of prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. The defence is expected to happen between June and September 2020.
+I worked on Evolutionary Machine Learning under the supervision of prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. Provisional defence date: June 8 2020.
 
 - ### 2013 - 2015 **Master in Computer Engineering**
 _University of Trieste_, Trieste, Italy. 
@@ -54,7 +54,7 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
   - Session chair for the Symposium on Evolutionary Intelligence "[*Back to the Future and Beyond - Traversing the Ever-Evolving Landscape of Evolutionary Algorithms*](http://bit.ly/2k2XKMq)" (2019)
 
 ## Notable Talks
-- _Highly-Individualized Dose Reconstruction for Pediatric Abdominal Radiotherapy with Machine Learning_ @ ESTRO 2020, Vienna, Austria (scheduled to happen in April 2020)
+- _Highly-Individualized Dose Reconstruction for Pediatric Abdominal Radiotherapy with Machine Learning_ @ ESTRO 2020, Vienna, Austria (scheduled to happen in August 2020)
 - _Giving Sight to Recombination for More Scalable Genetic Programming_ @ Visit to ALFA group Feb 2020, Computer Science & Artificial Intelligence Lab, MIT, Boston, USA
 - _Evolutionary Machine Learning for 3D Radiation Dose Reconstruction_ @ Delft AI Meetup Jan 2020, Delft, the Netherlands
 - _Linear Scaling with and within Semantic Backpropagation-based Genetic Programming for Symbolic Regression_ @ GECCO 2019 in Prague, Czech Republic
