@@ -46,7 +46,7 @@ Thesis by Sjoerd de Vries, titled <em>Sensitivity Analysis Based Feature-Guided 
 
 ## Services
 - Journals: 
-  - Reviewer for IEEE Transactions on Evolutionary Computation (since 2019)
+  - Reviewer for IEEE Transactions on Evolutionary Computation (since 2019), Genetic Programming and Evolvable Machines (since 2020)
 - Conferences: 
   - Reviewer for Parallel Problem Solving in Nature (2020)
   - Organizer (Electronic Media Chair) for: Genetic and Evolutionary Computation Conference (2017)
