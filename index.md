@@ -9,18 +9,15 @@ layout: default
   <img src='pics/profpic.jpg' alg='profile-pic'>
 </div>
 
-I am a PhD student working on Evolutionary Machine Learning at the 
-[Life Sciences and Health Group](https://www.cwi.nl/research/groups/life-sciences-and-health) of [Centrum Wiskunde & Informatica](https://www.cwi.nl), in Amsterdam. I collaborate with the <a href="https://www.amc.nl/web/research-75/department/radiotherapy-1.htm" target="_blank">Radiotherapy Department</a> of the <a href="https://www.amc.nl/web/home.htm" target="_blank">Amsterdam University Medical Center</a>, and will defend my research work at the <a href="http://www.tudelft.nl" target="_blank">Delft University of Technology</a>.
-
-My supervisors are <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> and <a href="https://www.amc.nl/web/research-75/department/dr.-t.-alderliesten-phd.htm" target="_blank">Tanja Alderliesten</a>.
-
+I am a postdoctoral fellow working on Evolutionary and Explainable Machine Learning as well as on Human-Machine Interaction at the 
+[Applied Artificial Intelligence Group](http://www.me.chalmers.se/~mwahde/) of [Chalmers University of Technology](https://www.chalmers.se), in Gothenburg. My supervisor is prof. dr. [Mattias Wahde](https://www.chalmers.se/en/staff/Pages/mattias-wahde.aspx).
 
 <div style='clear:both;height:0px;padding-top:1rem'>
 </div>
 
 # Contacts
 <div>
-	You can reach me by email <a href='mailto:marco.virgolin@cwi.nl'>marco.virgolin@cwi.nl</a>, and find me on:
+	You can reach me by email <a href='mailto:marco.virgolin@chalmers.se'>marco.virgolin@chalmers.se</a>, and find me on:
   <ul style='list-style-type: none;'>
     <li><img src='pics/logos/twitter-logo.png' style='height:2rem;'> 
       <a href='http://twitter.com/marcovirgolin' target='_blank'>twitter.com/marcovirgolin</a> 
