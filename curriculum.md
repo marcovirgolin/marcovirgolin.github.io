@@ -4,6 +4,11 @@ permalink: /curriculum
 ---
 # Curriculum Vitae
 ## Education
+
+- ### 2020 - _Ongoing_ **Postdoctoral fellow** 
+_Chalmers University of Technology_, Gothenburg, Sweden.
+I am working on Human-Machine Interaction and Explainable AI with prof. dr. <a href="https://www.chalmers.se/en/staff/Pages/mattias-wahde.aspx" target="_blank">Mattias Wahde</a> at the <a href="http://www.me.chalmers.se/~mwahde/">Applied Artificial Intelligence Group</a> of <a href="https://www.chalmers.se">Chalmers University of Technology</a>, in Sweden. 
+
 - ### 2019 - 2020 **Project Researcher** 
 _Centrum Wiskunde en Informatica_, Amsterdam, the Netherlands.
 I worked on Neuroevolution with prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. 
@@ -32,6 +37,8 @@ _Promoscience S.R.L._, Area Science Park, Padriciano, Italy
 ## Teaching Experience
 - ### Ongoing **MSc Thesis co-supervision** 
 Thesis by Tom den Ottelander on Evolutionary Neural Artchitecture Search @ Centrum Wiskunde & Informatica, Amsterdam, the Netherlands
+- ### 2020 **Guest lecturer on Evolutionary Algorithms course**
+Lecturer for a full lecture on Genetic Programming + design and correction of a related practical assignment @ Delft University of Technology, Delft, the Netherlands
 - ### 2019 **Teaching assistance on Evolutionary Algorithms course**
 Assistance for excercise hours, design and correction of (part of) practical assignments and exam questions. 
 Lecturer for a full lecture on Genetic Programming @ Delft University of Technology, Delft, the Netherlands
