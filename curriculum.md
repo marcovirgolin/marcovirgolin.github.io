@@ -7,19 +7,19 @@ permalink: /curriculum
 
 - ### 2020 - _Ongoing_ **Postdoctoral fellow** 
 _Chalmers University of Technology_, Gothenburg, Sweden.
-I am working on Human-Machine Interaction and Explainable AI with prof. dr. <a href="https://www.chalmers.se/en/staff/Pages/mattias-wahde.aspx" target="_blank">Mattias Wahde</a> at the <a href="http://www.me.chalmers.se/~mwahde/">Applied Artificial Intelligence Group</a> of <a href="https://www.chalmers.se">Chalmers University of Technology</a>, in Sweden. 
+I am working on Human-Machine Interaction and Explainable AI with prof. dr. <a href="https://www.chalmers.se/en/staff/Pages/mattias-wahde.aspx" target="_blank">Mattias Wahde</a> at the <a href="http://www.me.chalmers.se/~mwahde/">Applied Artificial Intelligence Group</a> of <a href="https://www.chalmers.se">Chalmers University of Technology</a>, in Gothenburg, Sweden. 
 
 - ### 2019 - 2020 **Project Researcher** 
 _Centrum Wiskunde en Informatica_, Amsterdam, the Netherlands.
-I worked on Neuroevolution with prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. 
+I worked on Neuroevolution with prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam, the Netherlands. 
 
 - ### 2015 - 2020 **PhD Student** 
 _Centrum Wiskunde en Informatica_, Amsterdam, the Netherlands.
-I worked on Evolutionary Machine Learning under the supervision of prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam. Provisional defence date: June 8 2020.
+I worked on Evolutionary Machine Learning under the supervision of prof. dr. <a href="https://homepages.cwi.nl/~bosman/" target="_blank">Peter A.N. Bosman</a> at the <a href="https://www.cwi.nl/research/groups/life-sciences-and-health">Life Sciences and Health Group</a> of <a href="https://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a>, in Amsterdam, the Netherlands.
 
 - ### 2013 - 2015 **Master in Computer Engineering**
 _University of Trieste_, Trieste, Italy. 
-I graduated with full marks and honors (110/110 cum laude). Thesis titled _Classification of natural language sentences for the identificaton of genes and proteins interactions using machine learning techniques_, supervised by prof. <a href="http://bartoli.inginf.units.it/" target="_blank">Alberto Bartoli</a>, at the <a href="http://machinelearning.inginf.units.it/" target="_blank">Machine Learning Lab</a> of the University of Trieste.
+I graduated with full marks and honors (110/110 cum laude). Thesis titled _Classification of natural language sentences for the identificaton of genes and proteins interactions using machine learning techniques_, supervised by prof. <a href="http://bartoli.inginf.units.it/" target="_blank">Alberto Bartoli</a>, at the <a href="http://machinelearning.inginf.units.it/" target="_blank">Machine Learning Lab</a> of the University of Trieste, Trieste, Italy.
 
 
 - ### 2008 - 2012 **Bachelor in Information Technology Engineering**
