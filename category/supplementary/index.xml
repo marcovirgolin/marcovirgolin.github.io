@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>supplementary | Marco Virgolin</title><link>https://marcovirgolin.github.io/category/supplementary/</link><atom:link href="https://marcovirgolin.github.io/category/supplementary/index.xml" rel="self" type="application/rss+xml"/><description>supplementary</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Marco Virgolin 2021</copyright><lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><image><url>https://marcovirgolin.github.io/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_512x512_fill_lanczos_center_2.png</url><title>supplementary</title><link>https://marcovirgolin.github.io/category/supplementary/</link></image><item><title>Best generalizing solutions found by GP-GOMEA with IMS g = 8</title><link>https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/</link><pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate><guid>https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/</guid><description>&lt;h1 id="best-generalizing-solutions-found-by-gp-gomea-with-ims-g--8">Best generalizing solutions found by GP-GOMEA with IMS g = 8&lt;/h1>
+&lt;p>&lt;strong>L&lt;/strong> is the solution size limit. Coefficients &lt;strong>a&lt;/strong> and &lt;strong>b&lt;/strong> are the translation and scaling coefficients of the linear scaling method respectively. The operator &lt;strong>aq&lt;/strong> is the analytic quotient operator.&lt;/p>
+&lt;h2 id="l--15">L = 15&lt;/h2>
+&lt;ul>
+&lt;li>Air &lt;code>((((12847.268401+x0)aq(x2 * x0))-((x3+2826.280940)aq(x4 * x1)))aq(((x4 * x2) * (x0 * x0))+((10341.262263-x3)+(11766.231941 * x2))))&lt;/code>
+[a=109.424095 b=-94.915818]&lt;/li>
+&lt;li>Bos &lt;code>(((x5 * x5)aq(x0+x10))+((x10aqx7)aq(x4 * x12)))&lt;/code>
+[a=1.992102 b=6.767211]&lt;/li>
+&lt;li>Con &lt;code>((((x1+x0)+(x2-x3))aq((x1aqx4)aq(x3-x7)))+(((x1-x4)+(553.468704-x3))aq((62.970183aqx7) * (x3aqx0))))&lt;/code>
+[a=-1.176643 b=0.084440]&lt;/li>
+&lt;li>Dow &lt;code>(((x48-x15) * (x46-x0))-((x6 * x37)-(x53 * x41)))&lt;/code>
+[a=-6.417973 b=0.000139]&lt;/li>
+&lt;li>EnC &lt;code>((((676.083300+675.325384)aq(x2-347.898759))+((x2 * x4)aq(x6-x0)))aq(((x2+x4)+(21.971506 * x0))+((484.071861+x4)aq(x1-605.500954))))&lt;/code>
+[a=-8.498946 b=7.735655]&lt;/li>
+&lt;li>EnH &lt;code>(((x2 * x4) * (x0+x6))+((x4 * 185.943722)aq(x2-341.713603)))&lt;/code>
+[a=1.561977 b=0.011168]&lt;/li>
+&lt;li>Tow &lt;code>(((x22aqx19) * (x5+x0))aq((x0 * x19) * (x15-x12)))&lt;/code>
+[a=-943.422045 b=1970384.064015]&lt;/li>
+&lt;li>WiR &lt;code>(((x8 * x9)-(x10aqx1)) * (x9 * (55.386370aqx9)))&lt;/code>
+[a=3.518683 b=-0.010037]&lt;/li>
+&lt;li>WiW &lt;code>(((x1aqx1) * (12.169781-x10))+((x0+x1)aq(x3+x5)))&lt;/code>
+[a=6.700237 b=-1.239514]&lt;/li>
+&lt;li>Yac &lt;code>((((x5 * x5) * (x5 * x5))aq((x5-x1) * (x2+3.846818))) * (((x5+0.092083) * (x1 * x5))aq((0.454000aqx0) * (x1-x0))))&lt;/code>
+[a=0.568685 b=14190.751389]&lt;/li>
+&lt;/ul>
+&lt;h2 id="l--31">L = 31&lt;/h2>
+&lt;ul>
+&lt;li>Air &lt;code>((((x0 * x4)aq(x4 * x0))aq((x2+x1)aq(x2 * x0)))aq(((x2aqx2) * (x4 * x0))aq((x2+x3)aq(x0aqx3))))&lt;/code>
+[a=111.067001 b=20.926388]&lt;/li>
+&lt;li>Bos &lt;code>((((x5 * x5)-(x0-x12))+((394.941091+x8)aq(x7 * x5)))aq(((x10 * x4) * (x4+x12))+((x10-x8)+85.153586)))&lt;/code>
+[a=-1.265883 b=70.736638]&lt;/li>
+&lt;li>Con &lt;code>((((x1+x0)+(x2-x3))aq((x1aqx4)aq(x3-x7)))+(((x1-x4)+(553.468704-x3))aq((62.970183aqx7) * (x3aqx0))))&lt;/code>
+[a=-1.176643 b=0.084440]&lt;/li>
+&lt;li>Dow &lt;code>((((x41 * x53) * (x28aqx34))-((x45 * x15)-(x30 * x48))) * (((x47-17900.112557)+(x35-x51))-((x46aqx55)+(x48aqx4))))&lt;/code>
+[a=-9.305003 b=-0.000000]&lt;/li>
+&lt;li>EnC &lt;code>((((x4aqx0)aq(x0-x6))+(x0aq(343.936910-x2)))aq(((394.766107+x3)aq(602.862249-x1))aq((x2-328.450440)-(78.934457 * x0))))&lt;/code>
+[a=-11.689353 b=10.279475]&lt;/li>
+&lt;li>EnH &lt;code>((((449.648278 * x4)aq(x6-x0))aq((x4+x0)aq(602.018635-x1))) * ((204.891565+(x3aqx6))-((18.813427+x4)aq(736.854933 * x7))))&lt;/code>
+[a=-32.826998 b=0.000077]&lt;/li>
+&lt;li>Tow &lt;code>((((x11aqx15) * (662.766209+x20))+((x4+x11)+(x11-x0)))-(((x22 * x5)aqx0)+((x14-x11)-(x11-x22))))&lt;/code>
+[a=4668.492658 b=-3.556094]&lt;/li>
+&lt;li>WiR &lt;code>(x8-(((x10+x1)aq(x9+x4)) * ((5.216269aqx9) * (x9aqx1))))&lt;/code>
+[a=3.279125 b=-0.127689]&lt;/li>
+&lt;li>WiW &lt;code>((((x1 * x0)-(x10+x1))aq((x0+x8)aq(x3+x5)))aq(((x6aqx9)-(x10 * x3))aq((x10+403.940671)-(x5+x5))))&lt;/code>
+[a=2.845022 b=-0.367945]&lt;/li>
+&lt;li>Yac &lt;code>((((x5 * x5)aq(x4 * x1))aq((x2 * x1)aq(x1aqx0))) * (((x5+0.301603) * (x5 * x5)) * ((x5 * x4) * (x5 * x5))))&lt;/code>
+[a=0.733127 b=33004.401150]&lt;/li>
+&lt;/ul>
+&lt;h2 id="l--63">L = 63&lt;/h2>
+&lt;ul>
+&lt;li>Air &lt;code>(((((x4 * 19393.261829)+(x0-x3))-((13301.851104 * x2)+(x3 * x3)))+(((8196.627520aqx2)-(15023.492908+19954.910763))aq((x4 * x2) * (x3-x0))))aq((((2224.125723aqx2)aq(x0+x0))aq((14702.847951 * x4) * (x1 * x4)))-(((x2 * x3)-(x1+x1))aq((x2+x4) * (x0-x3)))))&lt;/code>
+[a=112.273365 b=-0.000837]&lt;/li>
+&lt;li>Bos &lt;code>(((((x9-x11)aq(x4-x2))+((x11aqx4)+(x9aqx8)))-(((x9+x9)+(x3 * x9))aq((x12 * x7)+(x3-x12))))+((((x12+x9)-x12)+((x0aqx12)-(x9+x5))) * (((x5 * x11)aq(x12+x10))-((x12 * x4)+(x0+x0)))))&lt;/code>
+[a=19.132202 b=-0.028043]&lt;/li>
+&lt;li>Con &lt;code>(((((1052.722755 * 336.777884)+(x1 * x0))aq((x7 * x0)aq(1108.112110+x5)))-(((904.301075-x5)-(x1-x7)) * ((749.199049-x6)-(x4 * 9.999207))))+((((x3-x5)+(x7-x6)) * ((x1+x7)+(x2+x0)))+(((x7 * x6)aq(x0 * x4))+((x2 * x3)+(x3 * x2)))))&lt;/code>
+[a=-6.520110 b=-0.000084]&lt;/li>
+&lt;li>Dow &lt;code>(((((x41-x31) * (x44+x43))aq((x50 * x32)aq(x43 * x34))) * (((x47aqx28) * (x42+x42))-((x28-x35)+(x44+x4))))+((((x48-x15) * (6439.207846-x6)) * ((x28aqx36)+(x46-x37)))-(((x4-x5) * (x50+x48)) * ((x42-x34)+(x49aqx4)))))&lt;/code>
+[a=-9.830034 b=0.000000]&lt;/li>
+&lt;li>EnC &lt;code>(((((x6 * 392.361072)+(x2+145.770845)) * x4)+(((489.070561+x7)aq(119.539671-x3))+((559.025853 * x4)aq(x2-339.816423))))-((((649.832993 * x6)-(x3-x1))-((x3-x1)aq(x7 * x1)))aq((x4 * (x4aqx3)) * ((324.841978+x2)-(496.417302+x3)))))&lt;/code>
+[a=2.484909 b=0.007323]&lt;/li>
+&lt;li>EnH &lt;code>(((((529.121897-x3)+(x2-x3))aq((x1-612.755346) * (x7aqx7)))-((x2aq(x2-340.046855)) * x4))-((((x2 * x4)-(x1+x1))-((x7-292.568827) * (x6 * x4)))-(((671.252214+x4)aq(x6+x6))aq((393.752961-x1)+(412.668665-x2)))))&lt;/code>
+[a=14.691703 b=-0.010379]&lt;/li>
+&lt;li>Tow &lt;code>(((((544.429704-x11)aqx0)+((x13-x8)aq(x15-x5)))aq(((x22-x11)-(x11aqx3))+((x22-x20)+(x14-x11)))) * ((((x5 * 251.687658)-(540.123446+542.545207))-((x11 * x9)aq(x21-x22)))+(((x6 * x16)+(x18 * 458.977674))aq((x1-x5)aq(x3-x0)))))&lt;/code>
+[a=-721.689246 b=0.501822]&lt;/li>
+&lt;li>WiR &lt;code>(((((x0 * x4)-(x9 * 11.001440))+(x1 * (x4+x8))) * (((x10aqx9) * (23.853666aqx8)) * ((x7-x9)+(x10-x1))))aq((((x5 * x1)-(x1+51.300874))+((x7aqx1)-92.908516))-(((x9+x8)-(x6aqx10))+((x2+x9) * (x9 * x6)))))&lt;/code>
+[a=4.430270 b=-0.068529]&lt;/li>
+&lt;li>WiW &lt;code>(((((x4 * x6)+(x1 * x5))-((x3-x10)aq(x2 * x10)))-(((x9 * 23.881715)+(277.356555aqx10))aq((x10 * x1)-(x4 * 13.002368))))+((((x0-329.018119)aq(x5+x7)) * ((x4-x4)+(x5-x7))) * (((x10aq319.855434) * (x10 * x5))aq((x0aqx3)+(x5+x7)))))&lt;/code>
+[a=3.764797 b=-0.022421]&lt;/li>
+&lt;li>Yac &lt;code>(((((x5 * x5) * (x5 * x5)) * ((x5 * 0.069067) * (x5 * x5)))aq(((x1 * x1) * (x2+1.994634))-((x0aqx4)aq(0.837987-x0))))aq((((4.228337-x5)aq(x5+x5))aq((x2aqx3) * (x5aqx1)))aq(((x1aqx1)-x5) * ((x0 * x5)+(x3+x0)))))&lt;/code>
+[a=0.663055 b=1379215.327980]&lt;/li>
+&lt;/ul></description></item><item><title>Examples of models found by GP-GOMEA for automatic construction of pediatric abdominal phantoms</title><link>https://marcovirgolin.github.io/extras/models_gpgomea_spie_phantom/</link><pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate><guid>https://marcovirgolin.github.io/extras/models_gpgomea_spie_phantom/</guid><description>&lt;h1 id="examples-of-models-found-by-gp-gomea">Examples of models found by GP-GOMEA&lt;/h1>
+&lt;p>Examples of the mathematical expression models found by GP-GOMEA for the automatic construction of pediatric abdominal phantoms are reported below.
+Each model pertains to a particular metric, and has been manually re-arranged to aid readability.
+The features and the target metrics are normalized (as described in Sec. 2.3.1 of the article).
+To apply the model in practice, each feature needs to be de-normalized, i.e., scaled by the standard deviation and translated by the mean. Furthermore, the output of the model needs to be de-normalized as well, i.e., scaled and translated by the standard deviation and the mean of the target variable, respectively (this information is available in Table 1 of the article).
+We do not include these de-normalization coefficients in the models for the sake of readability. Also, since normalized features are approximately in the same scale, the magnitude of the coefficients included in the model can be associated with feature relevance.&lt;/p>
+&lt;h2 id="the-models">The models&lt;/h2>
+&lt;p>For the meaning of the abbreviations, see Table 1 in the article.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Body S&lt;/strong> : &lt;code> 0.420 * (ADAP + ADLR + SCIS) &lt;/code>&lt;/li>
+&lt;li>&lt;strong>Liver LR&lt;/strong> : &lt;code> (GEND + ADAP) * sqrt((0.100 + RDLR^2) / (8.264 + 0.100 * RDLR^2)) &lt;/code>&lt;/li>
+&lt;li>&lt;strong>Liver AP&lt;/strong> : &lt;code> (0.169 * ADAP) / sqrt(0.100 + (AGE - HEIG)^2) &lt;/code>&lt;/li>
+&lt;li>&lt;strong>Liver IS&lt;/strong> : &lt;code> 0.179 * ADLR + GEND * RDIS &lt;/code>&lt;/li>
+&lt;li>&lt;strong>Liver S&lt;/strong> : &lt;code> (ADLR + SCIS) / sqrt(0.100 + (4.389 + LDLR)^2) &lt;/code>&lt;/li>
+&lt;li>&lt;strong>Spleen LR&lt;/strong> : &lt;code> -0.821 * LDLR / sqrt(LDLR^2 + 0.100 * ICSC^2 + 0.010) &lt;/code>&lt;/li>
+&lt;li>&lt;strong>Spleen AP&lt;/strong> : &lt;code> -0.285 * ICSC / sqrt(0.100 + (AGE + ADAP)^2) &lt;/code>&lt;/li>
+&lt;li>&lt;strong>Spleen IS&lt;/strong> : &lt;code> AGE / sqrt((0.100 + HEIG^2) * (9.673 - 6.188 * WEIG + WEIG^2)) &lt;/code>&lt;/li>
+&lt;li>&lt;strong>Spleen S&lt;/strong> : &lt;code> 2.718^AGE * 0.057 * SCIS&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="examples-of-interpretation">Examples of interpretation&lt;/h2>
+&lt;p>For the prediction of which body segmentation to retrieve (i.e., Body S), the model is particularly simple: it is the sum of the abdominal diameters (ADAP and ADLR) and of the spinal cord length (SCIS), scaled by a constant.
+Interestingly, these features were already found to be among the most relevant in a study about the feasibility of modeling notions of anatomical similarity using random forest (see Virgolin et al. 2018). Arguably, the model is very reasonable: it predicts which body to retrieve based on its dimensions along the three axes: left-right (LR), anterior-posterior (AP), and inferior-superior (IS).&lt;/p>
+&lt;p>All the other models found by GP-GOMEA are non-linear. The recurrence of square roots (&lt;code>sqrt&lt;/code>) and squaring terms (&lt;code>^2&lt;/code>) are due to the adoption of the analytic quotient, to protect from diving by zero.
+For the sake of intuition, &lt;code>x / sqrt(0.100 + y^2)&lt;/code> can be considered as approximately &lt;code>x / |y|&lt;/code>, where &lt;code>|.|&lt;/code> takes the absolute value.&lt;/p>
+&lt;p>As further examples, consider the models that predict the LR position of the liver and of the spleen.
+The model for liver LR will always return a positive number, whereas the one for the spleen will always return a negative number.
+This is reasonable because the center of mass the liver is normally on the right of the reference point we used to determine the organ position, i.e., the 2nd lumbar vertebra, and the opposite holds for the spleen.
+Moreover, for the prediction of the liver position along LR, the model combines the AP direction, by means of the abdominal diameter in AP (ADAP), and the LR direction, by means of the right diaphragm length along LR (RDLR).
+Note that, since GEND can either have value 0 (female) or 1 (male), the left multiplicand term is bigger for males than females. Thus, for males, the model predicts bigger shifts in LR.
+Differently from the liver, the LR position of the spleen relies on the LR size of the &lt;em>left&lt;/em> diaphragm rather than on the &lt;em>right&lt;/em> diaphragm.
+This aspect reflects the fact that the liver and spleen are respectively placed below the right and the left diaphragm.&lt;/p></description></item><item><title>Time complexity for different machine learning algorithms</title><link>https://marcovirgolin.github.io/extras/details_time_complexity_machine_learning_algorithms/</link><pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate><guid>https://marcovirgolin.github.io/extras/details_time_complexity_machine_learning_algorithms/</guid><description>&lt;h1 id="time-complexity-for-different-machine-learning-algorithms">Time complexity for different machine learning algorithms&lt;/h1>
+&lt;p>Let &lt;strong>D&lt;/strong> be an &lt;strong>n&lt;/strong> times &lt;strong>m&lt;/strong> dimensional supervised learning dataset, with &lt;strong>n&lt;/strong> the number of examples, and &lt;strong>m&lt;/strong> the number of features.&lt;/p>
+&lt;h3 id="naive-bayes-classifier">Naive Bayes Classifier&lt;/h3>
+&lt;p>A (Gaussian) Naive Bayes classifier takes &lt;strong>O(nm)&lt;/strong> to train. The prediction of a new sample takes &lt;strong>O(mc)&lt;/strong>, with &lt;strong>c&lt;/strong> the number of classes.&lt;/p>
+&lt;h3 id="ordinary-least-squares">Ordinary Least Squares&lt;/h3>
+&lt;p>Training by ordinary least squares take &lt;strong>O(nm^2)&lt;/strong>, while prediction for a new sample takes &lt;strong>O(m)&lt;/strong>.&lt;/p>
+&lt;h3 id="support-vector-machines">Support Vector Machines&lt;/h3>
+&lt;p>Training time complexity depends on the training set and on hyper-parameters, and takes between &lt;strong>O(n^2m)&lt;/strong> and &lt;strong>O(n^3m)&lt;/strong>. Let &lt;strong>v&lt;/strong> be the number of support vectors obtained by training. Then prediction time for a new sample is &lt;strong>O(vm)&lt;/strong>.&lt;/p>
+&lt;h3 id="random-forest">Random Forest&lt;/h3>
+&lt;p>Assuming trees are free to grow to maximum height &lt;strong>O(&lt;em>log&lt;/em>n)&lt;/strong>, training takes &lt;strong>O(tun&lt;em>log&lt;/em>n)&lt;/strong>, where &lt;strong>t&lt;/strong> is the number of trees and &lt;strong>u&lt;/strong> is the number of features considered for splitting. The prediction of a new sample takes &lt;strong>O(t&lt;em>log&lt;/em>n)&lt;/strong>.&lt;/p>
+&lt;h3 id="extreme-gradient-boosting">eXtreme Gradient Boosting&lt;/h3>
+&lt;p>Training with XGBoost takes &lt;strong>O(tdx&lt;em>log&lt;/em>n)&lt;/strong>, where &lt;strong>t&lt;/strong> is the number of trees, &lt;strong>d&lt;/strong> is the height of the trees, and &lt;strong>x&lt;/strong> is the number of non-missing entries in the training data. Prediction for a new sample takes &lt;strong>O(td)&lt;/strong>.&lt;/p></description></item></channel></rss>
