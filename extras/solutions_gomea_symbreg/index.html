@@ -1,40 +1,308 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.0.0-beta.3 for Hugo"><meta name=author content="Marco Virgolin"><meta name=description content="Best generalizing solutions found by GP-GOMEA with IMS g = 8 L is the solution size limit. Coefficients a and b are the translation and scaling coefficients of the linear scaling method respectively."><link rel=alternate hreflang=en-us href=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/><link rel=preconnect href=https://fonts.gstatic.com crossorigin><meta name=theme-color content="#cd003a"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'"><script src=https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin=anonymous async></script><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'"><link rel=stylesheet href=/css/wowchemy.f5ad682be7bc6ed646321fb3340cef34.css><link rel=manifest href=/index.webmanifest><link rel=icon type=image/png href=/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_32x32_fill_lanczos_center_2.png><link rel=apple-touch-icon type=image/png href=/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_180x180_fill_lanczos_center_2.png><link rel=canonical href=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/><meta property="twitter:card" content="summary"><meta property="og:site_name" content="Marco Virgolin"><meta property="og:url" content="https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/"><meta property="og:title" content="Best generalizing solutions found by GP-GOMEA with IMS g = 8 | Marco Virgolin"><meta property="og:description" content="Best generalizing solutions found by GP-GOMEA with IMS g = 8 L is the solution size limit. Coefficients a and b are the translation and scaling coefficients of the linear scaling method respectively."><meta property="og:image" content="https://marcovirgolin.github.io/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_512x512_fill_lanczos_center_2.png"><meta property="twitter:image" content="https://marcovirgolin.github.io/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2021-02-20T00:00:00+00:00"><meta property="article:modified_time" content="2021-02-20T00:00:00+00:00"><title>Best generalizing solutions found by GP-GOMEA with IMS g = 8 | Marco Virgolin</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper><script src=/js/wowchemy-init.min.9f8405b7756f5e178a738a09c302f8b3.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>Marco Virgolin</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>Marco Virgolin</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/#about><span>About</span></a></li><li class=nav-item><a class=nav-link href=/#research><span>Research</span></a></li><li class=nav-item><a class=nav-link href=/#teaching><span>Teaching</span></a></li><li class=nav-item><a class=nav-link href=/#contact><span>Contact</span></a></li><li class=nav-item><a class=nav-link href=/media/resume_marco.pdf><span>CV</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"></ul></div></nav></div><div class=page-body><article class=article><div class="article-container pt-3"><h1>Best generalizing solutions found by GP-GOMEA with IMS g = 8</h1><div class=article-metadata><div><span>Marco Virgolin</span></div><span class=article-date>Feb 20, 2021</span>
-<span class=middot-divider></span><span class=article-categories><i class="fas fa-folder mr-1"></i><a href=/category/supplementary/>supplementary</a></span></div></div><div class=article-container><div class=article-style><h1 id=best-generalizing-solutions-found-by-gp-gomea-with-ims-g--8>Best generalizing solutions found by GP-GOMEA with IMS g = 8</h1><p><strong>L</strong> is the solution size limit. Coefficients <strong>a</strong> and <strong>b</strong> are the translation and scaling coefficients of the linear scaling method respectively. The operator <strong>aq</strong> is the analytic quotient operator.</p><h2 id=l--15>L = 15</h2><ul><li>Air <code>((((12847.268401+x0)aq(x2 * x0))-((x3+2826.280940)aq(x4 * x1)))aq(((x4 * x2) * (x0 * x0))+((10341.262263-x3)+(11766.231941 * x2))))</code>
-[a=109.424095 b=-94.915818]</li><li>Bos <code>(((x5 * x5)aq(x0+x10))+((x10aqx7)aq(x4 * x12)))</code>
-[a=1.992102 b=6.767211]</li><li>Con <code>((((x1+x0)+(x2-x3))aq((x1aqx4)aq(x3-x7)))+(((x1-x4)+(553.468704-x3))aq((62.970183aqx7) * (x3aqx0))))</code>
-[a=-1.176643 b=0.084440]</li><li>Dow <code>(((x48-x15) * (x46-x0))-((x6 * x37)-(x53 * x41)))</code>
-[a=-6.417973 b=0.000139]</li><li>EnC <code>((((676.083300+675.325384)aq(x2-347.898759))+((x2 * x4)aq(x6-x0)))aq(((x2+x4)+(21.971506 * x0))+((484.071861+x4)aq(x1-605.500954))))</code>
-[a=-8.498946 b=7.735655]</li><li>EnH <code>(((x2 * x4) * (x0+x6))+((x4 * 185.943722)aq(x2-341.713603)))</code>
-[a=1.561977 b=0.011168]</li><li>Tow <code>(((x22aqx19) * (x5+x0))aq((x0 * x19) * (x15-x12)))</code>
-[a=-943.422045 b=1970384.064015]</li><li>WiR <code>(((x8 * x9)-(x10aqx1)) * (x9 * (55.386370aqx9)))</code>
-[a=3.518683 b=-0.010037]</li><li>WiW <code>(((x1aqx1) * (12.169781-x10))+((x0+x1)aq(x3+x5)))</code>
-[a=6.700237 b=-1.239514]</li><li>Yac <code>((((x5 * x5) * (x5 * x5))aq((x5-x1) * (x2+3.846818))) * (((x5+0.092083) * (x1 * x5))aq((0.454000aqx0) * (x1-x0))))</code>
-[a=0.568685 b=14190.751389]</li></ul><h2 id=l--31>L = 31</h2><ul><li>Air <code>((((x0 * x4)aq(x4 * x0))aq((x2+x1)aq(x2 * x0)))aq(((x2aqx2) * (x4 * x0))aq((x2+x3)aq(x0aqx3))))</code>
-[a=111.067001 b=20.926388]</li><li>Bos <code>((((x5 * x5)-(x0-x12))+((394.941091+x8)aq(x7 * x5)))aq(((x10 * x4) * (x4+x12))+((x10-x8)+85.153586)))</code>
-[a=-1.265883 b=70.736638]</li><li>Con <code>((((x1+x0)+(x2-x3))aq((x1aqx4)aq(x3-x7)))+(((x1-x4)+(553.468704-x3))aq((62.970183aqx7) * (x3aqx0))))</code>
-[a=-1.176643 b=0.084440]</li><li>Dow <code>((((x41 * x53) * (x28aqx34))-((x45 * x15)-(x30 * x48))) * (((x47-17900.112557)+(x35-x51))-((x46aqx55)+(x48aqx4))))</code>
-[a=-9.305003 b=-0.000000]</li><li>EnC <code>((((x4aqx0)aq(x0-x6))+(x0aq(343.936910-x2)))aq(((394.766107+x3)aq(602.862249-x1))aq((x2-328.450440)-(78.934457 * x0))))</code>
-[a=-11.689353 b=10.279475]</li><li>EnH <code>((((449.648278 * x4)aq(x6-x0))aq((x4+x0)aq(602.018635-x1))) * ((204.891565+(x3aqx6))-((18.813427+x4)aq(736.854933 * x7))))</code>
-[a=-32.826998 b=0.000077]</li><li>Tow <code>((((x11aqx15) * (662.766209+x20))+((x4+x11)+(x11-x0)))-(((x22 * x5)aqx0)+((x14-x11)-(x11-x22))))</code>
-[a=4668.492658 b=-3.556094]</li><li>WiR <code>(x8-(((x10+x1)aq(x9+x4)) * ((5.216269aqx9) * (x9aqx1))))</code>
-[a=3.279125 b=-0.127689]</li><li>WiW <code>((((x1 * x0)-(x10+x1))aq((x0+x8)aq(x3+x5)))aq(((x6aqx9)-(x10 * x3))aq((x10+403.940671)-(x5+x5))))</code>
-[a=2.845022 b=-0.367945]</li><li>Yac <code>((((x5 * x5)aq(x4 * x1))aq((x2 * x1)aq(x1aqx0))) * (((x5+0.301603) * (x5 * x5)) * ((x5 * x4) * (x5 * x5))))</code>
-[a=0.733127 b=33004.401150]</li></ul><h2 id=l--63>L = 63</h2><ul><li>Air <code>(((((x4 * 19393.261829)+(x0-x3))-((13301.851104 * x2)+(x3 * x3)))+(((8196.627520aqx2)-(15023.492908+19954.910763))aq((x4 * x2) * (x3-x0))))aq((((2224.125723aqx2)aq(x0+x0))aq((14702.847951 * x4) * (x1 * x4)))-(((x2 * x3)-(x1+x1))aq((x2+x4) * (x0-x3)))))</code>
-[a=112.273365 b=-0.000837]</li><li>Bos <code>(((((x9-x11)aq(x4-x2))+((x11aqx4)+(x9aqx8)))-(((x9+x9)+(x3 * x9))aq((x12 * x7)+(x3-x12))))+((((x12+x9)-x12)+((x0aqx12)-(x9+x5))) * (((x5 * x11)aq(x12+x10))-((x12 * x4)+(x0+x0)))))</code>
-[a=19.132202 b=-0.028043]</li><li>Con <code>(((((1052.722755 * 336.777884)+(x1 * x0))aq((x7 * x0)aq(1108.112110+x5)))-(((904.301075-x5)-(x1-x7)) * ((749.199049-x6)-(x4 * 9.999207))))+((((x3-x5)+(x7-x6)) * ((x1+x7)+(x2+x0)))+(((x7 * x6)aq(x0 * x4))+((x2 * x3)+(x3 * x2)))))</code>
-[a=-6.520110 b=-0.000084]</li><li>Dow <code>(((((x41-x31) * (x44+x43))aq((x50 * x32)aq(x43 * x34))) * (((x47aqx28) * (x42+x42))-((x28-x35)+(x44+x4))))+((((x48-x15) * (6439.207846-x6)) * ((x28aqx36)+(x46-x37)))-(((x4-x5) * (x50+x48)) * ((x42-x34)+(x49aqx4)))))</code>
-[a=-9.830034 b=0.000000]</li><li>EnC <code>(((((x6 * 392.361072)+(x2+145.770845)) * x4)+(((489.070561+x7)aq(119.539671-x3))+((559.025853 * x4)aq(x2-339.816423))))-((((649.832993 * x6)-(x3-x1))-((x3-x1)aq(x7 * x1)))aq((x4 * (x4aqx3)) * ((324.841978+x2)-(496.417302+x3)))))</code>
-[a=2.484909 b=0.007323]</li><li>EnH <code>(((((529.121897-x3)+(x2-x3))aq((x1-612.755346) * (x7aqx7)))-((x2aq(x2-340.046855)) * x4))-((((x2 * x4)-(x1+x1))-((x7-292.568827) * (x6 * x4)))-(((671.252214+x4)aq(x6+x6))aq((393.752961-x1)+(412.668665-x2)))))</code>
-[a=14.691703 b=-0.010379]</li><li>Tow <code>(((((544.429704-x11)aqx0)+((x13-x8)aq(x15-x5)))aq(((x22-x11)-(x11aqx3))+((x22-x20)+(x14-x11)))) * ((((x5 * 251.687658)-(540.123446+542.545207))-((x11 * x9)aq(x21-x22)))+(((x6 * x16)+(x18 * 458.977674))aq((x1-x5)aq(x3-x0)))))</code>
-[a=-721.689246 b=0.501822]</li><li>WiR <code>(((((x0 * x4)-(x9 * 11.001440))+(x1 * (x4+x8))) * (((x10aqx9) * (23.853666aqx8)) * ((x7-x9)+(x10-x1))))aq((((x5 * x1)-(x1+51.300874))+((x7aqx1)-92.908516))-(((x9+x8)-(x6aqx10))+((x2+x9) * (x9 * x6)))))</code>
-[a=4.430270 b=-0.068529]</li><li>WiW <code>(((((x4 * x6)+(x1 * x5))-((x3-x10)aq(x2 * x10)))-(((x9 * 23.881715)+(277.356555aqx10))aq((x10 * x1)-(x4 * 13.002368))))+((((x0-329.018119)aq(x5+x7)) * ((x4-x4)+(x5-x7))) * (((x10aq319.855434) * (x10 * x5))aq((x0aqx3)+(x5+x7)))))</code>
-[a=3.764797 b=-0.022421]</li><li>Yac <code>(((((x5 * x5) * (x5 * x5)) * ((x5 * 0.069067) * (x5 * x5)))aq(((x1 * x1) * (x2+1.994634))-((x0aqx4)aq(0.837987-x0))))aq((((4.228337-x5)aq(x5+x5))aq((x2aqx3) * (x5aqx1)))aq(((x1aqx1)-x5) * ((x0 * x5)+(x3+x0)))))</code>
-[a=0.663055 b=1379215.327980]</li></ul></div><div class=article-tags><a class="badge badge-light" href=/tag/supplementary/>supplementary</a></div><div class=share-box aria-hidden=true><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/&text=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208" target=_blank rel=noopener class=share-btn-twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/&t=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208" target=_blank rel=noopener class=share-btn-facebook><i class="fab fa-facebook"></i></a></li><li><a href="mailto:?subject=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208&body=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/" target=_blank rel=noopener class=share-btn-email><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/&title=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208" target=_blank rel=noopener class=share-btn-linkedin><i class="fab fa-linkedin-in"></i></a></li><li><a href="whatsapp://send?text=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208%20https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/" target=_blank rel=noopener class=share-btn-whatsapp><i class="fab fa-whatsapp"></i></a></li><li><a href="https://service.weibo.com/share/share.php?url=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/&title=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208" target=_blank rel=noopener class=share-btn-weibo><i class="fab fa-weibo"></i></a></li></ul></div><div class="media author-card content-widget-hr"><a href=https://marcovirgolin.github.io/><img class="avatar mr-3 avatar-circle" src=/authors/marco/avatar_hueeb76e8954a65af1a1fa32f66b18e1df_84726_270x270_fill_q75_lanczos_center.jpg alt="Marco Virgolin"></a><div class=media-body><h5 class=card-title><a href=https://marcovirgolin.github.io/>Marco Virgolin</a></h5><h6 class=card-subtitle>PostDoc on Evolutionary Machine Learning and Explainable AI</h6><ul class=network-icon aria-hidden=true><li><a href=/#contact><i class="fas fa-envelope"></i></a></li><li><a href=https://twitter.com/marcovirgolin target=_blank rel=noopener><i class="fab fa-twitter"></i></a></li><li><a href="https://scholar.google.com/citations?user=2lY1d8QAAAAJ&hl=en" target=_blank rel=noopener><i class="ai ai-google-scholar"></i></a></li><li><a href=https://github.com/marcovirgolin target=_blank rel=noopener><i class="fab fa-github"></i></a></li><li><a href=https://www.researchgate.net/profile/Marco-Virgolin target=_blank rel=noopener><i class="fab fa-researchgate"></i></a></li></ul></div></div></div></article></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by>© Marco Virgolin 2021</p><p class=powered-by>Published with
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Wowchemy 5.0.0-beta.3 for Hugo">
+<meta name=author content="Marco Virgolin">
+<meta name=description content="Best generalizing solutions found by GP-GOMEA with IMS g = 8 L is the solution size limit. Coefficients a and b are the translation and scaling coefficients of the linear scaling method respectively.">
+<link rel=alternate hreflang=en-us href=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<meta name=theme-color content="#cd003a">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'">
+<script src=https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin=anonymous async></script>
+<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
+<link rel=stylesheet href=/css/wowchemy.ea378010ab67c585d179ddb6653ad354.css>
+<link rel=manifest href=/index.webmanifest>
+<link rel=icon type=image/png href=/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_180x180_fill_lanczos_center_3.png>
+<link rel=canonical href=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/>
+<meta property="twitter:card" content="summary">
+<meta property="og:site_name" content="Marco Virgolin">
+<meta property="og:url" content="https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/">
+<meta property="og:title" content="Best generalizing solutions found by GP-GOMEA with IMS g = 8 | Marco Virgolin">
+<meta property="og:description" content="Best generalizing solutions found by GP-GOMEA with IMS g = 8 L is the solution size limit. Coefficients a and b are the translation and scaling coefficients of the linear scaling method respectively."><meta property="og:image" content="https://marcovirgolin.github.io/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_512x512_fill_lanczos_center_3.png">
+<meta property="twitter:image" content="https://marcovirgolin.github.io/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2021-02-20T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-02-20T00:00:00+00:00">
+<title>Best generalizing solutions found by GP-GOMEA with IMS g = 8 | Marco Virgolin</title>
+</head>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper>
+<script src=/js/wowchemy-init.min.9f8405b7756f5e178a738a09c302f8b3.js></script>
+<aside class=search-modal id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Search</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+<input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...>
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
+</aside>
+<div class=page-header>
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
+<div class=container-xl>
+<div class="d-none d-lg-inline-flex">
+<a class=navbar-brand href=/>Marco Virgolin</a>
+</div>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span>
+</button>
+<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+<a class=navbar-brand href=/>Marco Virgolin</a>
+</div>
+<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
+<ul class="navbar-nav d-md-inline-flex">
+<li class=nav-item>
+<a class=nav-link href=/#about><span>About</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#research><span>Research</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#teaching><span>Teaching</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#contact><span>Contact</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/media/resume_marco.pdf><span>CV</span></a>
+</li>
+</ul>
+</div>
+<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+</ul>
+</div>
+</nav>
+</div>
+<div class=page-body>
+<article class=article>
+<div class="article-container pt-3">
+<h1>Best generalizing solutions found by GP-GOMEA with IMS g = 8</h1>
+<div class=article-metadata>
+<div>
+<span>
+Marco Virgolin</span>
+</div>
+<span class=article-date>
+Feb 20, 2021
+</span>
+<span class=middot-divider></span>
+<span class=article-categories>
+<i class="fas fa-folder mr-1"></i><a href=/category/supplementary/>supplementary</a></span>
+</div>
+</div>
+<div class=article-container>
+<div class=article-style>
+<h1 id=best-generalizing-solutions-found-by-gp-gomea-with-ims-g--8>Best generalizing solutions found by GP-GOMEA with IMS g = 8</h1>
+<p><strong>L</strong> is the solution size limit. Coefficients <strong>a</strong> and <strong>b</strong> are the translation and scaling coefficients of the linear scaling method respectively. The operator <strong>aq</strong> is the analytic quotient operator.</p>
+<h2 id=l--15>L = 15</h2>
+<ul>
+<li>Air <code>((((12847.268401+x0)aq(x2 * x0))-((x3+2826.280940)aq(x4 * x1)))aq(((x4 * x2) * (x0 * x0))+((10341.262263-x3)+(11766.231941 * x2))))</code>
+[a=109.424095 b=-94.915818]</li>
+<li>Bos <code>(((x5 * x5)aq(x0+x10))+((x10aqx7)aq(x4 * x12)))</code>
+[a=1.992102 b=6.767211]</li>
+<li>Con <code>((((x1+x0)+(x2-x3))aq((x1aqx4)aq(x3-x7)))+(((x1-x4)+(553.468704-x3))aq((62.970183aqx7) * (x3aqx0))))</code>
+[a=-1.176643 b=0.084440]</li>
+<li>Dow <code>(((x48-x15) * (x46-x0))-((x6 * x37)-(x53 * x41)))</code>
+[a=-6.417973 b=0.000139]</li>
+<li>EnC <code>((((676.083300+675.325384)aq(x2-347.898759))+((x2 * x4)aq(x6-x0)))aq(((x2+x4)+(21.971506 * x0))+((484.071861+x4)aq(x1-605.500954))))</code>
+[a=-8.498946 b=7.735655]</li>
+<li>EnH <code>(((x2 * x4) * (x0+x6))+((x4 * 185.943722)aq(x2-341.713603)))</code>
+[a=1.561977 b=0.011168]</li>
+<li>Tow <code>(((x22aqx19) * (x5+x0))aq((x0 * x19) * (x15-x12)))</code>
+[a=-943.422045 b=1970384.064015]</li>
+<li>WiR <code>(((x8 * x9)-(x10aqx1)) * (x9 * (55.386370aqx9)))</code>
+[a=3.518683 b=-0.010037]</li>
+<li>WiW <code>(((x1aqx1) * (12.169781-x10))+((x0+x1)aq(x3+x5)))</code>
+[a=6.700237 b=-1.239514]</li>
+<li>Yac <code>((((x5 * x5) * (x5 * x5))aq((x5-x1) * (x2+3.846818))) * (((x5+0.092083) * (x1 * x5))aq((0.454000aqx0) * (x1-x0))))</code>
+[a=0.568685 b=14190.751389]</li>
+</ul>
+<h2 id=l--31>L = 31</h2>
+<ul>
+<li>Air <code>((((x0 * x4)aq(x4 * x0))aq((x2+x1)aq(x2 * x0)))aq(((x2aqx2) * (x4 * x0))aq((x2+x3)aq(x0aqx3))))</code>
+[a=111.067001 b=20.926388]</li>
+<li>Bos <code>((((x5 * x5)-(x0-x12))+((394.941091+x8)aq(x7 * x5)))aq(((x10 * x4) * (x4+x12))+((x10-x8)+85.153586)))</code>
+[a=-1.265883 b=70.736638]</li>
+<li>Con <code>((((x1+x0)+(x2-x3))aq((x1aqx4)aq(x3-x7)))+(((x1-x4)+(553.468704-x3))aq((62.970183aqx7) * (x3aqx0))))</code>
+[a=-1.176643 b=0.084440]</li>
+<li>Dow <code>((((x41 * x53) * (x28aqx34))-((x45 * x15)-(x30 * x48))) * (((x47-17900.112557)+(x35-x51))-((x46aqx55)+(x48aqx4))))</code>
+[a=-9.305003 b=-0.000000]</li>
+<li>EnC <code>((((x4aqx0)aq(x0-x6))+(x0aq(343.936910-x2)))aq(((394.766107+x3)aq(602.862249-x1))aq((x2-328.450440)-(78.934457 * x0))))</code>
+[a=-11.689353 b=10.279475]</li>
+<li>EnH <code>((((449.648278 * x4)aq(x6-x0))aq((x4+x0)aq(602.018635-x1))) * ((204.891565+(x3aqx6))-((18.813427+x4)aq(736.854933 * x7))))</code>
+[a=-32.826998 b=0.000077]</li>
+<li>Tow <code>((((x11aqx15) * (662.766209+x20))+((x4+x11)+(x11-x0)))-(((x22 * x5)aqx0)+((x14-x11)-(x11-x22))))</code>
+[a=4668.492658 b=-3.556094]</li>
+<li>WiR <code>(x8-(((x10+x1)aq(x9+x4)) * ((5.216269aqx9) * (x9aqx1))))</code>
+[a=3.279125 b=-0.127689]</li>
+<li>WiW <code>((((x1 * x0)-(x10+x1))aq((x0+x8)aq(x3+x5)))aq(((x6aqx9)-(x10 * x3))aq((x10+403.940671)-(x5+x5))))</code>
+[a=2.845022 b=-0.367945]</li>
+<li>Yac <code>((((x5 * x5)aq(x4 * x1))aq((x2 * x1)aq(x1aqx0))) * (((x5+0.301603) * (x5 * x5)) * ((x5 * x4) * (x5 * x5))))</code>
+[a=0.733127 b=33004.401150]</li>
+</ul>
+<h2 id=l--63>L = 63</h2>
+<ul>
+<li>Air <code>(((((x4 * 19393.261829)+(x0-x3))-((13301.851104 * x2)+(x3 * x3)))+(((8196.627520aqx2)-(15023.492908+19954.910763))aq((x4 * x2) * (x3-x0))))aq((((2224.125723aqx2)aq(x0+x0))aq((14702.847951 * x4) * (x1 * x4)))-(((x2 * x3)-(x1+x1))aq((x2+x4) * (x0-x3)))))</code>
+[a=112.273365 b=-0.000837]</li>
+<li>Bos <code>(((((x9-x11)aq(x4-x2))+((x11aqx4)+(x9aqx8)))-(((x9+x9)+(x3 * x9))aq((x12 * x7)+(x3-x12))))+((((x12+x9)-x12)+((x0aqx12)-(x9+x5))) * (((x5 * x11)aq(x12+x10))-((x12 * x4)+(x0+x0)))))</code>
+[a=19.132202 b=-0.028043]</li>
+<li>Con <code>(((((1052.722755 * 336.777884)+(x1 * x0))aq((x7 * x0)aq(1108.112110+x5)))-(((904.301075-x5)-(x1-x7)) * ((749.199049-x6)-(x4 * 9.999207))))+((((x3-x5)+(x7-x6)) * ((x1+x7)+(x2+x0)))+(((x7 * x6)aq(x0 * x4))+((x2 * x3)+(x3 * x2)))))</code>
+[a=-6.520110 b=-0.000084]</li>
+<li>Dow <code>(((((x41-x31) * (x44+x43))aq((x50 * x32)aq(x43 * x34))) * (((x47aqx28) * (x42+x42))-((x28-x35)+(x44+x4))))+((((x48-x15) * (6439.207846-x6)) * ((x28aqx36)+(x46-x37)))-(((x4-x5) * (x50+x48)) * ((x42-x34)+(x49aqx4)))))</code>
+[a=-9.830034 b=0.000000]</li>
+<li>EnC <code>(((((x6 * 392.361072)+(x2+145.770845)) * x4)+(((489.070561+x7)aq(119.539671-x3))+((559.025853 * x4)aq(x2-339.816423))))-((((649.832993 * x6)-(x3-x1))-((x3-x1)aq(x7 * x1)))aq((x4 * (x4aqx3)) * ((324.841978+x2)-(496.417302+x3)))))</code>
+[a=2.484909 b=0.007323]</li>
+<li>EnH <code>(((((529.121897-x3)+(x2-x3))aq((x1-612.755346) * (x7aqx7)))-((x2aq(x2-340.046855)) * x4))-((((x2 * x4)-(x1+x1))-((x7-292.568827) * (x6 * x4)))-(((671.252214+x4)aq(x6+x6))aq((393.752961-x1)+(412.668665-x2)))))</code>
+[a=14.691703 b=-0.010379]</li>
+<li>Tow <code>(((((544.429704-x11)aqx0)+((x13-x8)aq(x15-x5)))aq(((x22-x11)-(x11aqx3))+((x22-x20)+(x14-x11)))) * ((((x5 * 251.687658)-(540.123446+542.545207))-((x11 * x9)aq(x21-x22)))+(((x6 * x16)+(x18 * 458.977674))aq((x1-x5)aq(x3-x0)))))</code>
+[a=-721.689246 b=0.501822]</li>
+<li>WiR <code>(((((x0 * x4)-(x9 * 11.001440))+(x1 * (x4+x8))) * (((x10aqx9) * (23.853666aqx8)) * ((x7-x9)+(x10-x1))))aq((((x5 * x1)-(x1+51.300874))+((x7aqx1)-92.908516))-(((x9+x8)-(x6aqx10))+((x2+x9) * (x9 * x6)))))</code>
+[a=4.430270 b=-0.068529]</li>
+<li>WiW <code>(((((x4 * x6)+(x1 * x5))-((x3-x10)aq(x2 * x10)))-(((x9 * 23.881715)+(277.356555aqx10))aq((x10 * x1)-(x4 * 13.002368))))+((((x0-329.018119)aq(x5+x7)) * ((x4-x4)+(x5-x7))) * (((x10aq319.855434) * (x10 * x5))aq((x0aqx3)+(x5+x7)))))</code>
+[a=3.764797 b=-0.022421]</li>
+<li>Yac <code>(((((x5 * x5) * (x5 * x5)) * ((x5 * 0.069067) * (x5 * x5)))aq(((x1 * x1) * (x2+1.994634))-((x0aqx4)aq(0.837987-x0))))aq((((4.228337-x5)aq(x5+x5))aq((x2aqx3) * (x5aqx1)))aq(((x1aqx1)-x5) * ((x0 * x5)+(x3+x0)))))</code>
+[a=0.663055 b=1379215.327980]</li>
+</ul>
+</div>
+<div class=article-tags>
+<a class="badge badge-light" href=/tag/supplementary/>supplementary</a>
+</div>
+<div class=share-box aria-hidden=true>
+<ul class=share>
+<li>
+<a href="https://twitter.com/intent/tweet?url=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/&text=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208" target=_blank rel=noopener class=share-btn-twitter>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/sharer.php?u=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/&t=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208" target=_blank rel=noopener class=share-btn-facebook>
+<i class="fab fa-facebook"></i>
+</a>
+</li>
+<li>
+<a href="mailto:?subject=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208&body=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/" target=_blank rel=noopener class=share-btn-email>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/shareArticle?url=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/&title=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208" target=_blank rel=noopener class=share-btn-linkedin>
+<i class="fab fa-linkedin-in"></i>
+</a>
+</li>
+<li>
+<a href="whatsapp://send?text=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208%20https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/" target=_blank rel=noopener class=share-btn-whatsapp>
+<i class="fab fa-whatsapp"></i>
+</a>
+</li>
+<li>
+<a href="https://service.weibo.com/share/share.php?url=https://marcovirgolin.github.io/extras/solutions_gomea_symbreg/&title=Best%20generalizing%20solutions%20found%20by%20GP-GOMEA%20with%20IMS%20g%20=%208" target=_blank rel=noopener class=share-btn-weibo>
+<i class="fab fa-weibo"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="media author-card content-widget-hr">
+<a href=https://marcovirgolin.github.io/><img class="avatar mr-3 avatar-circle" src=/authors/marco/avatar_huc4a4eaec21f76f638c56af2c98453490_289232_270x270_fill_q75_lanczos_center.jpg alt="Marco Virgolin"></a>
+<div class=media-body>
+<h5 class=card-title><a href=https://marcovirgolin.github.io/>Marco Virgolin</a></h5>
+<h6 class=card-subtitle>Junior Researcher on eXplainable AI (XAI) and Evolutionary Machine Learning (EML)</h6>
+<ul class=network-icon aria-hidden=true>
+<li>
+<a href=/#contact>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a href=https://twitter.com/marcovirgolin target=_blank rel=noopener>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://scholar.google.com/citations?user=2lY1d8QAAAAJ&hl=en" target=_blank rel=noopener>
+<i class="ai ai-google-scholar"></i>
+</a>
+</li>
+<li>
+<a href=https://github.com/marcovirgolin target=_blank rel=noopener>
+<i class="fab fa-github"></i>
+</a>
+</li>
+<li>
+<a href=https://www.researchgate.net/profile/Marco-Virgolin target=_blank rel=noopener>
+<i class="fab fa-researchgate"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class=page-footer>
+<div class=container>
+<footer class=site-footer>
+<p class=powered-by>
+© Marco Virgolin 2021
+</p>
+<p class=powered-by>
+Published with
 <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> —
-the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script><script id=search-hit-fuse-template type=text/x-template>
+the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>
+open source</a> website builder that empowers creators.
+</p>
+</footer>
+</div>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Cite</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Copy
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Download
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script>
+<script id=search-hit-fuse-template type=text/x-template>
         <div class="search-hit" id="summary-{{key}}">
           <div class="search-hit-content">
             <div class="search-hit-name">
@@ -44,4 +312,10 @@ the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blan
             </div>
           </div>
         </div>
-      </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script><script src=/js/_vendor/bootstrap.bundle.min.f81d0a1705048649befc8b595e455a94.js></script><script src=/en/js/wowchemy.min.e20609e6ad3f7fce339ee2e74f13682b.js></script></body></html>
+      </script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
+<script src=/js/_vendor/bootstrap.bundle.min.f81d0a1705048649befc8b595e455a94.js></script>
+<script src=/en/js/wowchemy.min.e20609e6ad3f7fce339ee2e74f13682b.js></script>
+</body>
+</html>
