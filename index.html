@@ -1,312 +1,805 @@
-<!doctype html><html lang=en-us>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=generator content="Wowchemy 5.0.0-beta.3 for Hugo">
-<meta name=author content="Marco Virgolin">
-<meta name=description content="Tenure Track Researcher on Explainable AI and Evolutionary Machine Learning">
-<link rel=alternate hreflang=en-us href=https://marcovirgolin.github.io/>
-<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
-<meta name=theme-color content="#cd003a">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin=anonymous media=print onload="this.media='all'">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'">
-<script src=https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin=anonymous async></script>
-<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
-<link rel=stylesheet href=/css/wowchemy.ea378010ab67c585d179ddb6653ad354.css>
-<script src=https://identity.netlify.com/v1/netlify-identity-widget.js></script>
-<link rel=alternate href=/index.xml type=application/rss+xml title="Marco Virgolin">
-<link rel=manifest href=/index.webmanifest>
-<link rel=icon type=image/png href=/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_32x32_fill_lanczos_center_3.png>
-<link rel=apple-touch-icon type=image/png href=/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://marcovirgolin.github.io/>
-<meta property="twitter:card" content="summary">
-<meta property="og:site_name" content="Marco Virgolin">
-<meta property="og:url" content="https://marcovirgolin.github.io/">
-<meta property="og:title" content="Marco Virgolin">
-<meta property="og:description" content="Junior Researcher on Explainable AI and Evolutionary Machine Learning"><meta property="og:image" content="https://marcovirgolin.github.io/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_512x512_fill_lanczos_center_3.png">
-<meta property="twitter:image" content="https://marcovirgolin.github.io/images/icon_hu2076ee2145f04bba7aa26fc592f333cb_224305_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2030-06-01T13:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","potentialAction":{"@type":"SearchAction","target":"https://marcovirgolin.github.io/?q={search_term_string}","query-input":"required name=search_term_string"},"url":"https://marcovirgolin.github.io/"}</script>
-<title>Marco Virgolin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Virgolin | PhD</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "CbFNyRr1CfwhJ6eNU",
+            });
+        })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#10B981',
+                        dark: '#1F2937',
+                        light: '#F9FAFB'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #3B82F6, #10B981);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #3B82F6, #10B981);
+        }
+
+        .timeline-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            left: 6px;
+            top: 32px;
+            height: calc(100% - 32px);
+            width: 2px;
+            background: #E5E7EB;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .nav-link {
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #3B82F6;
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .text-gray-600 a {
+            color: #3B82F6 !important;
+            text-decoration: none !important;
+            transition: color 0.3s ease, text-shadow 0.3s ease !important;
+        }
+    </style>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#navbar-main class=page-wrapper>
-<script src=/js/wowchemy-init.min.9f8405b7756f5e178a738a09c302f8b3.js></script>
-<aside class=search-modal id=search>
-<div class=container>
-<section class=search-header>
-<div class="row no-gutters justify-content-between mb-3">
-<div class=col-6>
-<h1>Search</h1>
-</div>
-<div class="col-6 col-search-close">
-<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
-</div>
-</div>
-<div id=search-box>
-<input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...>
-</div>
-</section>
-<section class=section-search-results>
-<div id=search-hits>
-</div>
-</section>
-</div>
-</aside>
-<div class=page-header>
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
-<div class=container-xl>
-<div class="d-none d-lg-inline-flex">
-<a class=navbar-brand href=/>Marco Virgolin</a>
-</div>
-<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span>
-</button>
-<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-<a class=navbar-brand href=/>Marco Virgolin</a>
-</div>
-<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
-<ul class="navbar-nav d-md-inline-flex">
-<li class=nav-item>
-<a class=nav-link href=/#about data-target=#about><span>About</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/#contact data-target=#contact><span>Contact</span></a>
-</li>
-</ul>
-</div>
-<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-</ul>
-</div>
-</nav>
-</div>
-<div class=page-body>
-<span class="js-widget-page d-none"></span>
-<section id=about class="home-section wg-about">
-<div class=home-section-bg></div>
-<div class=container>
-<div class=row>
-<div class="col-12 col-lg-4">
-<div id=profile>
-<img class="avatar avatar-circle" src=/authors/marco/avatar.jpg alt="Marco Virgolin">
-<div class=portrait-title>
-<h2>Marco Virgolin</h2>
-<h3>Senior Data Scientist</h3>
-<h3>
-<span>Ingka, IKEA</span>
-</h3>
-</div>
-<ul class=network-icon aria-hidden=true>
-<li>
-<a href=/#contact aria-label=envelope>
-<i class="fas fa-envelope big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://twitter.com/marcovirgolin target=_blank rel=noopener aria-label=twitter>
-<i class="fab fa-twitter big-icon"></i>
-</a>
-</li>
-<li>
-<a href="https://scholar.google.com/citations?user=2lY1d8QAAAAJ&hl=en" target=_blank rel=noopener aria-label=google-scholar>
-<i class="ai ai-google-scholar big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://github.com/marcovirgolin target=_blank rel=noopener aria-label=github>
-<i class="fab fa-github big-icon"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-12 col-lg-8">
-<h1>Biography</h1>
-<div class=article-style>
-<p>I am a Senior Data Scientist at <a href="https://www.ingka.com/" target="_blank">Ingka, IKEA</a>, working on making AI trustworhty.
-  Currently, my main focus is on taming <i>generative AI</i>, specifically large language models such as causal transformers.
-</p>
-<p>Feel free to <a href="/#contact">reach out</a> if you need technical advice on <b>explainable AI</b> (<i>fairness, feature attribution, recourse, transparent models</i>), <b>generative AI</b> (<i>large language models, diffusion models</i>), or other ML subjects.</p>
-<p>
-  Before my current employment, I've been:
-  <ul>
-    <li>
-      Scientific Staff Member in tenure track (the equivalent of a starting professor) at <a href=https://cwi.nl target=_blank>Centrum Wiskunde & Informatica</a> (CWI), the national research institute for mathematics and computer science in the Netherlands.
-      <!--<br>
-      Topics: <i>explainable AI, symbolic regression, genetic algorithms, deep learning, meta-learning</i>.
-      -->
-    </li>
-    <li>
-      Postdoctoral researcher with <a href=https://www.chalmers.se/en/staff/Pages/mattias-wahde.aspx target=_blank>Mattias Wahde</a> at <a href=https://chalmers.se target=_blank>Chalmers University of Technology</a>.
-    <!--<br>
-      Topics: <i>explainable AI, symbolic regression, (classic and deep) natural language processing, human-machine interaction</i>.
-    -->
-    </li>
-    <li>
-      PhD student with <a href=https://homepages.cwi.nl/~bosman/ target=_blank>Peter A. N. Bosman</a> and <a href=https://www.lumc.nl/org/radiotherapie/medewerkers/Alderliesten target=_blank>Tanja Alderliesten</a> at <a href=https://cwi.nl target=_blank>CWI</a>. 
-    <!--<br>
-      Topics: <i>genetic algorithms, symbolic regression, neural architecture search, meta-learning, medical imaging, medical applications of AI</i>.
-    -->
-    </li>
-    <li>
-      Intern and M.Sc. thesis student with with <a href=https://bartoli.inginf.units.it/ target=_blank>Alberto Bartoli</a> and <a href=https://medvet.inginf.units.it/ target=_blank>Eric Medvet</a> at the <a href=https://machinelearning.inginf.units.it/ target=_blank>Machine Learning Lab</a> of the <a href=https://www.units.it/ target=_blank>University of Trieste</a>.
-    <!--<br>
-      Topics: <i>genetic algorithms, (classic) natural language processing, cyber security</i>.
-    -->
-    </li>
-  </ul>
- </p>
-<i class="fas fa-download pr-1 fa-fw"></i> Download my resumé: <a href=/media/resume_marco_academic.pdf target=_blank>academia</a> or <a href="/media/resume_marco_industry.pdf" target="_blank">industry</a></p>
-</div>
-<div class=row>
-<div class=col-md-5>
-<div class=section-subheading>Interests</div>
-<ul class=ul-interests>
-<li>Explainable AI</li>
-<li>Generative AI (Large language models, Diffusion models, Multi-modal models)</li>
-<li>Symbolic Regression</li>
-<li>Genetic Algorithms</li>
-<li>Natural Language Processing</li>
-<li>Medical Applications of AI</li>
-</ul>
-</div>
-<div class=col-md-7>
-<div class=section-subheading>Education</div>
-<ul class="ul-edu fa-ul">
-<li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>PhD in Evolutionary Machine Learning, 2020</p>
-<p class=institution>Delft University of Technology</p>
-</div>
-</li>
-<li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>MEng in Computer Engineering, 2015</p>
-<p class=institution>University of Trieste</p>
-</div>
-</li>
-<li>
-<i class="fa-li fas fa-graduation-cap"></i>
-<div class=description>
-<p class=course>BSc in Information Engineering, 2012</p>
-<p class=institution>University of Trieste</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id=contact class="home-section wg-contact">
-<div class=home-section-bg></div>
-<div class=container>
-<div class=row>
-<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-<h1 class=mb-0>Contact</h1>
-</div>
-<div class="col-12 col-lg-8">
-<ul class=fa-ul>
-<li>
-<i class="fa-li fas fa-envelope fa-2x" aria-hidden=true></i>
-<span id=person-email>
-  Personal (ask anything): <a href=mailto:marco.virgolin@gmail.com>marco.virgolin@gmail.com</a> 
-  <br>
-  Work (only IKEA-related): <a href=mailto:marco.virgolin@ingka.ikea.com>marco.virgolin@ingka.ikea.com</a>
-</span>
-</li>
-<li>
-<i class="fa-li fas fa-map-marker fa-2x" aria-hidden=true></i>
-<span id=person-address>IKEA Amshult, Danzigerkade 14-15, 1013 AP Amsterdam</span>
-</li>
-<li>
-<i class="fa-li fas fa-compass fa-2x" aria-hidden=true></i>
-<span>Enter the Amshult building. You'll find the reception at the ground floor of sector B. Ask for me.</span>
-</li>
-</ul>
-<div class=d-none>
-<input id=map-provider value=mapnik>
-<input id=map-lat value=52.399044>
-<input id=map-lng value=4.877053>
-<input id=map-dir value="Danzigerkade 14-15, 1013 AP Amsterdam">
-<input id=map-zoom value=15>
-<input id=map-api-key value>
-</div>
-<div id=map></div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<div class=page-footer>
-<div class=container>
-<footer class=site-footer>
-<p class=powered-by>
-© Marco Virgolin 2023
-</p>
-<p class=powered-by>
-Published with
-<a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> —
-the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>
-open source</a> website builder that empowers creators.
-</p>
-</footer>
-</div>
-</div>
-<div id=modal class="modal fade" role=dialog>
-<div class=modal-dialog>
-<div class=modal-content>
-<div class=modal-header>
-<h5 class=modal-title>Cite</h5>
-<button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span>
-</button>
-</div>
-<div class=modal-body>
-<pre><code class="tex hljs"></code></pre>
-</div>
-<div class=modal-footer>
-<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
-<i class="fas fa-copy"></i> Copy
-</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
-<i class="fas fa-download"></i> Download
-</a>
-<div id=modal-error></div>
-</div>
-</div>
-</div>
-</div>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script>
-<script id=search-hit-fuse-template type=text/x-template>
-        <div class="search-hit" id="summary-{{key}}">
-          <div class="search-hit-content">
-            <div class="search-hit-name">
-              <a href="{{relpermalink}}">{{title}}</a>
-              <div class="article-metadata search-hit-type">{{type}}</div>
-              <p class="search-hit-description">{{snippet}}</p>
+
+<body class="bg-light text-dark">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-xl font-bold text-primary">Marco <span
+                            class="text-secondary">Virgolin</span></a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-primary transition">Home</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-primary transition">About</a>
+                    <a href="#experience" class="nav-link text-gray-700 hover:text-primary transition">Experience</a>
+                    <a href="#projects" class="nav-link text-gray-700 hover:text-primary transition">Projects</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-primary transition">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-gray-700 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
             </div>
-          </div>
         </div>
-      </script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
-<script src=/js/_vendor/bootstrap.bundle.min.f81d0a1705048649befc8b595e455a94.js></script>
-<script src=/en/js/wowchemy.min.e20609e6ad3f7fce339ee2e74f13682b.js></script>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Home</a>
+                <a href="#about"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">About</a>
+                <a href="#experience"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Experience</a>
+                <a href="#projects"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Projects</a>
+                <a href="#contact"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-16 md:pt-32 md:pb-24 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                        Bridging <span class="gradient-text">Research</span> and <span
+                            class="gradient-text">Industry</span> in AI
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        I design, lead, and build AI solutions—spanning both research and production—from hands-on coding to team leadership and academic publishing. My current focus is on Responsible AI and Generative AI.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#contact"
+                            class="px-6 py-3 gradient-bg text-white rounded-lg font-medium hover:opacity-90 transition">
+                            Get In Touch
+                        </a>
+                        <a href="#projects"
+                            class="px-6 py-3 border border-primary text-primary rounded-lg font-medium hover:bg-primary hover:text-white transition">
+                            View Projects
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 flex justify-center">
+                    <div
+                        class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
+                        <!-- Placeholder for your image -->
+                        <div
+                            class="w-full h-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                            <i class="fas">
+                                <img src="imgs/profilepic.png" alt="Marco Virgolin in Studio Ghibli's style">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <div class="w-20 h-1 gradient-bg mx-auto"></div>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
+                    <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                        <!-- Placeholder for your image -->
+                        <div
+                            class="w-full h-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                            <i class="fas">
+                                <img src="imgs/academia_n_industry.png" alt="Marco Virgolin in Studio Ghibli's style">
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-2xl font-semibold mb-4">Academic Insight. Industrial Impact.</h3>
+                    <p class="text-gray-600 mb-6">
+                        Over 7 years in academia—culminating in a tenure-track position at the Dutch National Center for
+                        Math & CS—shaped my ability to think critically and
+                        creatively about complex problems.
+                        The past <span class="years-in-industry"></span> years in senior industry roles have
+                        expanded that foundation, from building production-grade ML systems to leading teams
+                        and guiding strategy. Today, I thrive at the intersection of research and
+                        application, bridging cutting-edge innovation with real-world implementation.
+                        From time to time, I still provide academic service.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="flex items-center">
+                            <div
+                                class="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-3">
+                                <i class="fas fa-flask text-primary"></i>
+                            </div>
+                            <span class="font-medium">Research Background</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div
+                                class="w-10 h-10 rounded-full bg-secondary bg-opacity-10 flex items-center justify-center mr-3">
+                                <i class="fas fa-chart-line text-secondary"></i>
+                            </div>
+                            <span class="font-medium">Business Impact</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div
+                                class="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-3">
+                                <i class="fas fa-robot text-primary"></i>
+                            </div>
+                            <span class="font-medium">Hands-on Machine Learning</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div
+                                class="w-10 h-10 rounded-full bg-secondary bg-opacity-10 flex items-center justify-center mr-3">
+                                <i class="fas fa-users text-secondary"></i>
+                            </div>
+                            <span class="font-medium">Leadership & Strategy</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Machine Learning</span>
+                        <span class="px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Deep Learning</span>
+                        <span class="px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">LLMs</span>
+                        <span class="px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Responsible AI</span>
+                        <span class="px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Generative AI</span>
+                        <span class="px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Research &
+                            Innovation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">My Journey</h2>
+                <div class="w-20 h-1 gradient-bg mx-auto"></div>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline -->
+                <div class="space-y-8">
+                    <!-- Current Role -->
+                    <div class="timeline-item relative pl-8">
+                        <div class="absolute left-0 w-4 h-4 rounded-full gradient-bg"></div>
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                                <h3 class="text-xl font-semibold">🤖 Head of AI</h3>
+                                <span class="text-sm text-gray-500">2024 - Present</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">InSilicoTrials Technologies (NL)</p>
+                            <p class="text-gray-600">
+                                Built and led the AI team in the drug development-focused startup.
+                                Collaborated with R&D, Engineering, and C-level to identify and pursue business value
+                                with AI.
+                                Laid the foundations for MLOps: testing, CI/CD, pipelines,
+                                as well as onboarding materials.
+                                Designed, developed/supervised, and deployed AI solutions covering supervised and
+                                unsupervised ML,
+                                explainable AI, synthetic data generation, multimodal info retrieval, and LLM-based multi-agent systems
+                                (incl. w/ MCP).
+                                Contributed to large-scale grant and consulting projects.
+                                Academic collaborations such as PhD supervision, teaching.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Previous Industry Role -->
+                    <div class="timeline-item relative pl-8">
+                        <div class="absolute left-0 w-4 h-4 rounded-full gradient-bg"></div>
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                                <h3 class="text-xl font-semibold">📊 Senior Data Scientist</h3>
+                                <span class="text-sm text-gray-500">2023 - 2024</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">INGKA Digital [IKEA] (NL)</p>
+                            <p class="text-gray-600">
+                                R&D on generative AI, working with LLMs and diffusion models
+                                for text and image generation.
+                                Developed semantic search and generative AI prototypes,
+                                explored interpretability and control of LLMs at architectural and training level (torch + wandb),
+                                and advised on responsible AI implementation.
+                                Tech interiews for senior and principal roles. Mentoring of less senior colleagues.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Academic Research -->
+                    <div class="timeline-item relative pl-8">
+                        <div class="absolute left-0 w-4 h-4 rounded-full gradient-bg"></div>
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                                <h3 class="text-xl font-semibold">👨‍🏫 Scientific Staff Member (Tenure Track)</h3>
+                                <span class="text-sm text-gray-500">2021 - 2023</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Dutch National Center of Math & Computer Science [CWI] (NL)
+                            </p>
+                            <p class="text-gray-600">
+                                Focused on cutting-edge machine learning, including deep learning, evolutionary
+                                algorithms, and explainable AI.
+                                Published at venues like ICML, NeurIPS, and GECCO.
+                                Supervised PhD and MSc students, some within international research projects.
+                                and developed award-winning open-source algorithms.
+                                Co-authored major research proposals with industry partners.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item relative pl-8">
+                        <div class="absolute left-0 w-4 h-4 rounded-full gradient-bg"></div>
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                                <h3 class="text-xl font-semibold">🔬 Postdoctoral Researcher x2</h3>
+                                <span class="text-sm text-gray-500">2019 – 2021</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">TU Chalmers (SE)</p>
+                            <p class="text-gray-600">
+                                Worked on explainability in NLP,
+                                active learning, robotics, and human-AI interaction.
+                                Supervision of students and education, academic service.
+                            </p>
+                            <br />
+                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                                <span class="text-sm text-gray-500">2019 – 2020</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Dutch National Center of Math & CS + TU Delft (NL)</p>
+                            <p class="text-gray-600">
+                                Research on automatic discovery of deep learning architectures & facial
+                                emotion recognition using deep contrastive learning.
+                                Supervision of students and education, academic service.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="timeline-item relative pl-8">
+                        <div class="absolute left-0 w-4 h-4 rounded-full gradient-bg"></div>
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                                <h3 class="text-xl font-semibold">🎓 Ph.D. in Evolutionary Machine Learning</h3>
+                                <span class="text-sm text-gray-500">2010 - 2015</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">National Math & CS Center + TU Delft, NL</p>
+                            <p class="text-gray-600">
+                                Researched evolutionary algorithms grounded in information theory to
+                                develop interpretable symbolic regression models, with applications in
+                                pediatric radiotherapy.
+                                Work resulted in award-winning publications and open-source tools.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Selected Projects</h2>
+                <div class="w-20 h-1 gradient-bg mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div
+                    class="project-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                    <img src="imgs/multiagent.png" width="100%"
+                        alt="multi-agent system using model context protocol (MCP) to perform tasks related to drug development">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">🦙 LLM Multi-Agents</h3>
+                        <p class="text-gray-600 mb-4">
+                            Led the development and contributed hands-on to an LLM-based multi-agent system capable of
+                            handling different types of queries by autonomously operating tools.
+                            The architecture featured
+                            a <a href="https://www.anthropic.com/news/model-context-protocol" target="_blank">Model
+                                Context Protocol (MCP) server</a> coded in-house to serve several specialized tools.
+                            These included retrieval augmented generation (RAG) with sources both
+                            internal or external to the company,
+                            and functionalities of the simulation platform within which the multi-agent system was
+                            deployed, thus
+                            offering seamless integration.
+                            <!--Developed as part of AI innovation in drug development at InSilicoTrials.-->
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">LLMs</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">RAG</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Llama-index</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">MCP</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Multi-agent system</span>
+                        </div>
+                        <!--<a href="#" class="text-primary font-medium hover:underline">Learn more →</a>-->
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div
+                    class="project-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                    <img src="imgs/xai.png" width="100%" alt="explainable ai illustration">
+                    <!--<div class="h-48 bg-gradient-to-r from-secondary to-primary flex items-center justify-center">
+                        <i class="fas fa-comments text-white text-6xl"></i>
+                    </div>-->
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">🔍 Explainable AI Algorithms</h3>
+                        <p class="text-gray-600 mb-4">
+                            Contributed first-hand to explainable AI with: (1) An award-winning algorithm and respective
+                            publications to discover mathematical equations from data (<i>symbolic regression</i>).
+                            Check out:
+                            <a href="https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/c0c7c76d30bd3dcaefc96f40275bdc0a-Abstract-round1.html"
+                                target="_blank">SRBench at NeurIPS</a>
+                            |
+                            <a href="https://sig.sigevo.org/SIGEVO-Dissertation-Award#SIGEVO_Dissertation_Award_4"
+                                target="_blank">SIGEVO's Best PhD Dissertation Award 2021</a>
+                            |
+                            <a href="https://human-competitive.org/awards" target="_blank">Silver Award at 2021 Humies
+                                Competition</a>
+                            |
+                            <a href="https://github.com/marcovirgolin/gpg" target="_blank">Open source repo</a>.
+
+                            (2) A simple but effective algorithm to explain black-box ML models by counterfactual
+                            explanations: <i>"how should the input change to obtain a different output?"</i>. Check out:
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0004370222001801"
+                                target="_blank">Publication on Artificial Intelligence (Elsevier, open access)</a>
+                            | <a href="https://github.com/marcovirgolin/cogs" target="_blank">Open source repo</a>
+                            | <a href="https://colab.research.google.com/drive/1HQ4wcViJ5YV6w648yUtmiCoa2fGj4ftE"
+                                target="_blank">Colab example</a>.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Explainable AI</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Symbolic regression</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Black-box AI</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Counterfactual explanations</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Genetic algorithms</span>
+                        </div>
+                        <!--<a href="#" class="text-primary font-medium hover:underline">Learn more →</a>-->
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div
+                    class="project-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                    <!--<div class="h-48 bg-gradient-to-r from-primary to-secondary flex items-center justify-center">
+                        <i class="fas fa-eye text-white text-6xl"></i>
+                    </div>-->
+                    <img src="imgs/privacy_project.png" width="100%" alt="explainable ai illustration">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">💊 Responsible AI in Pharma</h3>
+                        <p class="text-gray-600 mb-4">
+                            Worked on bringing into practice and contributed to the discussion on responsible AI, such
+                            as <a href="https://www.regulations.gov/comment/FDA-2024-D-4689-0015" target="_blank">FDA's
+                                guidance proposal on the use of AI for drugs</a> (comment on behalf of the company).
+                            Further, led the development of a technical and actionable protocol for quantifying
+                            the level of fidelity, utility, and privacy of Generative AI-based synthetic data in
+                            healthcare.
+                            Measuring privacy risks in particular required mapping regulatory guidelines
+                            from the EU's GDPR and European Medicines Agency
+                            into appropriate metrics and simulated cyber-attacks from academic literature on synthetic
+                            data and anonymization.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Responsible AI</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Regulations</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Generative AI</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Synthetic data</span>
+                            <span class="px-2 py-1 bg-gray-100 rounded-full text-xs">Digital twins</span>
+                        </div>
+                        <!--<a href="#" class="text-primary font-medium hover:underline">Learn more →</a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <!--<a href="#" class="px-6 py-3 border border-primary text-primary rounded-lg font-medium hover:bg-primary hover:text-white transition">
+                    View All Projects
+                </a>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
+                <div class="w-20 h-1 gradient-bg mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                    Interested in having a chat or collaborating?
+                    Feel free to reach out through any of these channels or fill the form below.
+                </p>
+            </div>
+
+            <div class="md:flex-row gap-8">
+                <div class="mt-8 bg-gray-50 p-8 rounded-lg h-full">
+                    <div class="flex flex-col sm:flex-row sm:justify-between items-start sm:items-center">
+                        <div class="mb-4 sm:mb-0">
+                            <h3 class="font-semibold text-gray-700 mb-2">Email</h3>
+                            <a id="email-placeholder" href="mailto:contact@example.com"
+                                class="text-gray-600 hover:text-primary transition">someemail@email.com</a>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Social</h3>
+                            <div class="flex space-x-4">
+                                <a href="linkedin.com/in/marco-virgolin-phd-8815a667"
+                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://x.com/MarcoVirgolin"
+                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                                    <i class="fab fa-x-twitter"></i>
+                                </a>
+                                <a href="https://github.com/marcovirgolin"
+                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://medium.com/@marco.virgolin"
+                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                                    <i class="fab fa-medium"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:w-full py-12">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                            <input type="text" id="name"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                            <input type="text" id="subject"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea id="message" rows="5"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition"></textarea>
+                        </div>
+                        <div style="display: none;">
+                            <label for="2nd-msg">2nd-msg, super important</label>
+                            <input type="text" id="2nd-msg" name="2nd-msg">
+                        </div>
+                        <button type="submit"
+                            class="w-full gradient-bg text-white py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!--<div class="md:w-1/2">
+                    <div class="bg-gray-50 p-8 rounded-lg h-full">
+                        <h3 class="text-xl font-semibold mb-6">Contact Information</h3>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-4 mt-1">
+                                    <i class="fas fa-envelope text-primary"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-700">Email</h4>
+                                    <a id="email-placeholder" href="mailto:contact@example.com"
+                                        class="text-gray-600 hover:text-primary transition"></a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-secondary bg-opacity-10 flex items-center justify-center mr-4 mt-1">
+                                    <i class="fas fa-phone-alt text-secondary"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-700">Phone</h4>
+                                    <a id="phone-placeholder" href="tel:+31628735831"
+                                        class="text-gray-600 hover:text-primary transition">+1 234 567 890</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-4 mt-1">
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-700">Location</h4>
+                                    <p class="text-gray-600">Amsterdam, NL</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-secondary bg-opacity-10 flex items-center justify-center mr-4 mt-1">
+                                    <i class="fas fa-clock text-secondary"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-700">Availability</h4>
+                                    <p class="text-gray-600">Monday - Friday, 9AM - 5PM CET</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-8">
+                            <h4 class="font-medium text-gray-700 mb-4">Social</h4>
+                            <div class="flex space-x-4">
+                                <a href="linkedin.com/in/marco-virgolin-phd-8815a667"
+                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://x.com/MarcoVirgolin"
+                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                                    <i class="fab fa-x-twitter"></i>
+                                </a>
+                                <a href="https://github.com/marcovirgolin"
+                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://medium.com/@marco.virgolin"
+                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                                    <i class="fab fa-medium"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="text-xl font-bold text-white">Marco <span
+                            class="text-secondary">Virgolin</span></a>
+                    <p class="text-gray-400 mt-2">Bridging research and industry in artificial intelligence.</p>
+                </div>
+
+                <div class="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0">
+                    <div>
+                        <h4 class="text-white font-medium mb-3">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+                            <li><a href="#experience" class="text-gray-400 hover:text-white transition">Experience</a>
+                            </li>
+                            <li><a href="#projects" class="text-gray-400 hover:text-white transition">Projects</a></li>
+                            <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-white font-medium mb-3">Connect</h4>
+                        <ul class="space-y-2">
+                            <li><a href="https://linkedin.com/in/marco-virgolin-phd-8815a667"
+                                    class="text-gray-400 hover:text-white transition">LinkedIn</a></li>
+                            <li><a href="https://x.com/MarcoVirgolin"
+                                    class="text-gray-400 hover:text-white transition">X</a></li>
+                            <li><a href="https://github.com/marcovirgolin"
+                                    class="text-gray-400 hover:text-white transition">GitHub</a></li>
+                            <li><a href="https://medium.com/@marco.virgolin"
+                                    class="text-gray-400 hover:text-white transition">Medium</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© <span class="current-year"></span> Marco Virgolin. All
+                    rights reserved.</p>
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">This website was vibe-coded using <a
+                        href="https://deepsite.site/" target="_blank">deepsite 🐳</a></p>
+                <div class="flex space-x-6">
+                    <a href="privacy.html" class="text-gray-400 hover:text-white transition text-sm">Privacy Policy</a>
+                    <!--<a href="#" class="text-gray-400 hover:text-white transition text-sm">Terms of Service</a>-->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mobile menu toggle
+            document.getElementById('menu-btn').addEventListener('click', function () {
+                document.getElementById('mobile-menu').classList.toggle('hidden');
+            });
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.getElementById('mobile-menu').classList.add('hidden');
+
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Change navbar style on scroll
+            window.addEventListener('scroll', function () {
+                const nav = document.querySelector('nav');
+                if (window.scrollY > 50) {
+                    nav.classList.add('shadow-md');
+                    nav.classList.remove('shadow-sm');
+                } else {
+                    nav.classList.remove('shadow-md');
+                    nav.classList.add('shadow-sm');
+                }
+            });
+
+
+            // Set years-in-industry as diff between today and 2023
+            const startYearIndustry = 2023;
+            const currentYear = new Date().getFullYear();
+            const yearsInIndustry = currentYear - startYearIndustry;
+            document.querySelectorAll('.years-in-industry').forEach(element => {
+                element.textContent = yearsInIndustry;
+            });
+
+            // Set copyright in footer to current year
+            const currentYearFooter = new Date().getFullYear();
+            document.querySelectorAll('.current-year').forEach(element => {
+                element.textContent = currentYearFooter;
+            });
+
+            // Set email placeholder to email
+            let email = "marco" + "." + "virgolin" + "__at__" + "gmail" + "." + "com";
+            email = email.replace("__at__", "@");
+            document.getElementById('email-placeholder').textContent = email;
+            document.getElementById('email-placeholder').href = "mailto:" + email;
+            // Set phone placeholder to phone
+            /*let phone = "+31" + " " + "xxx" + "73_" + "@58" + "$xxx"
+            phone = phone.replace("_", "").replace("@", "").replace("$", "")
+            document.getElementById('phone-placeholder').textContent = phone
+            document.getElementById('phone-placeholder').href = "tel:" + phone;
+            */
+
+            // Collect form data and send email
+            // Honeypot logic
+            const honeypotField = document.getElementById('2nd-msg');
+            document.querySelector('form').addEventListener('submit', function (e) {
+
+                if (honeypotField.value.trim() !== "") {
+                    // If honeypot field is filled, stop form submission
+                    console.warn("Honeypot triggered. Potential bot detected.");
+                    return;
+                }
+
+                // Proceed with form submission if honeypot is empty
+                const formData = {
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    title: document.getElementById('subject').value,
+                    message: document.getElementById('message').value,
+                };
+
+                emailjs.send("service_0o6qmkw", "template_inpwp3r", formData)
+                    .then(() => {
+                        alert("Email sent successfully, thank you for contacting me!");
+                    })
+                    .catch(error => {
+                        console.error("Error sending email:", error);
+                        alert("Failed to send email. Please try again. (" + error + ")");
+                    });
+            });
+        });
+    </script>
 </body>
+
 </html>
