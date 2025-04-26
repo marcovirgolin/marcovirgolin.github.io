@@ -145,7 +145,9 @@
                             class="gradient-text">Industry</span> in AI
                     </h1>
                     <p class="text-lg text-gray-600 mb-8">
-                        I design, lead, and build AI solutions—spanning both research and production—from hands-on coding to team leadership and academic publishing. My current focus is on Responsible AI and Generative AI.
+                        I design, lead, and build AI solutions—spanning both research and production—from hands-on
+                        coding to team leadership and academic publishing. My current focus is on Responsible AI and
+                        Generative AI.
                     </p>
                     <div class="flex space-x-4">
                         <a href="#contact"
@@ -279,7 +281,8 @@
                                 as well as onboarding materials.
                                 Designed, developed/supervised, and deployed AI solutions covering supervised and
                                 unsupervised ML,
-                                explainable AI, synthetic data generation, multimodal info retrieval, and LLM-based multi-agent systems
+                                explainable AI, synthetic data generation, multimodal info retrieval, and LLM-based
+                                multi-agent systems
                                 (incl. w/ MCP).
                                 Contributed to large-scale grant and consulting projects.
                                 Academic collaborations such as PhD supervision, teaching.
@@ -300,7 +303,8 @@
                                 R&D on generative AI, working with LLMs and diffusion models
                                 for text and image generation.
                                 Developed semantic search and generative AI prototypes,
-                                explored interpretability and control of LLMs at architectural and training level (torch + wandb),
+                                explored interpretability and control of LLMs at architectural and training level (torch
+                                + wandb),
                                 and advised on responsible AI implementation.
                                 Tech interiews for senior and principal roles. Mentoring of less senior colleagues.
                             </p>
@@ -548,17 +552,17 @@
                     <form class="space-y-6">
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                            <input type="text" id="name"
+                            <input type="text" id="name" required
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
                         </div>
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                            <input type="email" id="email"
+                            <input type="email" id="email" required
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
                         </div>
                         <div>
                             <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
-                            <input type="text" id="subject"
+                            <input type="text" id="subject" required
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
                         </div>
                         <div>
@@ -570,88 +574,21 @@
                             <label for="2nd-msg">2nd-msg, super important</label>
                             <input type="text" id="2nd-msg" name="2nd-msg">
                         </div>
+                        <div>
+                            <label for="consent" class="flex items-center">
+                                <input type="checkbox" id="consent" required class="mr-2">
+                                <span class="text-sm text-gray-700">I agree to the collection and processing of my
+                                    personal data for the purpose of responding to my inquiry. More info can be found in
+                                    the <a href="privacy.html" class="text-primary hover:underline"
+                                        target="_blank">Privacy Policy</a>.</span>
+                            </label>
+                        </div>
                         <button type="submit"
                             class="w-full gradient-bg text-white py-3 rounded-lg font-medium hover:opacity-90 transition">
                             Send Message
                         </button>
                     </form>
                 </div>
-
-                <!--<div class="md:w-1/2">
-                    <div class="bg-gray-50 p-8 rounded-lg h-full">
-                        <h3 class="text-xl font-semibold mb-6">Contact Information</h3>
-
-                        <div class="space-y-6">
-                            <div class="flex items-start">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-4 mt-1">
-                                    <i class="fas fa-envelope text-primary"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-medium text-gray-700">Email</h4>
-                                    <a id="email-placeholder" href="mailto:contact@example.com"
-                                        class="text-gray-600 hover:text-primary transition"></a>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-secondary bg-opacity-10 flex items-center justify-center mr-4 mt-1">
-                                    <i class="fas fa-phone-alt text-secondary"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-medium text-gray-700">Phone</h4>
-                                    <a id="phone-placeholder" href="tel:+31628735831"
-                                        class="text-gray-600 hover:text-primary transition">+1 234 567 890</a>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mr-4 mt-1">
-                                    <i class="fas fa-map-marker-alt text-primary"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-medium text-gray-700">Location</h4>
-                                    <p class="text-gray-600">Amsterdam, NL</p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-secondary bg-opacity-10 flex items-center justify-center mr-4 mt-1">
-                                    <i class="fas fa-clock text-secondary"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-medium text-gray-700">Availability</h4>
-                                    <p class="text-gray-600">Monday - Friday, 9AM - 5PM CET</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mt-8">
-                            <h4 class="font-medium text-gray-700 mb-4">Social</h4>
-                            <div class="flex space-x-4">
-                                <a href="linkedin.com/in/marco-virgolin-phd-8815a667"
-                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="https://x.com/MarcoVirgolin"
-                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
-                                    <i class="fab fa-x-twitter"></i>
-                                </a>
-                                <a href="https://github.com/marcovirgolin"
-                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://medium.com/@marco.virgolin"
-                                    class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
-                                    <i class="fab fa-medium"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
             </div>
         </div>
     </section>
@@ -774,6 +711,66 @@
             // Collect form data and send email
             // Honeypot logic
             const honeypotField = document.getElementById('2nd-msg');
+
+            // Add event listener for form submission
+            document.querySelector('form').addEventListener('submit', function (e) {
+                e.preventDefault(); // Prevent default form submission
+
+                // Check honeypot field
+                if (honeypotField.value.trim() !== "") {
+                    console.warn("Honeypot triggered. Potential bot detected.");
+                    return;
+                }
+
+                // Validate required fields
+                const nameField = document.getElementById('name');
+                const emailField = document.getElementById('email');
+                const subjectField = document.getElementById('subject');
+                const messageField = document.getElementById('message');
+                const consentField = document.getElementById('consent');
+
+                if (!nameField.value.trim() || !emailField.value.trim() || !subjectField.value.trim() || !messageField.value.trim()) {
+                    displayMessage("Please fill in all required fields.", "error");
+                    return;
+                }
+
+                if (!consentField.checked) {
+                    displayMessage("Please agree to the collection and processing of your personal data.", "error");
+                    return;
+                }
+
+                // Collect form data
+                const formData = {
+                    name: nameField.value,
+                    email: emailField.value,
+                    title: subjectField.value,
+                    message: messageField.value,
+                };
+
+                // Send email using EmailJS
+                emailjs.send("service_0o6qmkw", "template_inpwp3r", formData)
+                    .then(() => {
+                        displayMessage("Email sent successfully, thank you for contacting me!", "success");
+                        document.querySelector('form').reset(); // Reset form after successful submission
+                    })
+                    .catch(error => {
+                        console.error("Error sending email:", error);
+                        displayMessage("Failed to send email. Please try again later.", "error");
+                    });
+            });
+
+            // Function to display messages
+            function displayMessage(message, type) {
+                const messageContainer = document.createElement('div');
+                messageContainer.textContent = message;
+                messageContainer.className = `fixed top-4 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded-lg text-white text-center shadow-lg ${type === "success" ? "bg-green-500" : "bg-red-500"
+                    }`;
+                document.body.appendChild(messageContainer);
+
+                setTimeout(() => {
+                    messageContainer.remove();
+                }, 3000); // Remove message after 3 seconds
+            }
             document.querySelector('form').addEventListener('submit', function (e) {
 
                 if (honeypotField.value.trim() !== "") {
@@ -781,6 +778,15 @@
                     console.warn("Honeypot triggered. Potential bot detected.");
                     return;
                 }
+
+                // if checkbox of consent is not active, give error
+                checkboxField = document.getElementById('consent');
+                if (!checkboxField.checked) {
+                    alert("Please agree to the collection and processing of your personal data.");
+                    return;
+                }
+                // Prevent default form submission
+                e.preventDefault();
 
                 // Proceed with form submission if honeypot is empty
                 const formData = {
@@ -792,13 +798,31 @@
 
                 emailjs.send("service_0o6qmkw", "template_inpwp3r", formData)
                     .then(() => {
-                        alert("Email sent successfully, thank you for contacting me!");
+                        const successMessage = document.createElement('div');
+                        successMessage.textContent = "Email sent successfully, thank you for contacting me!";
+                        successMessage.className = "fixed top-20 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded-lg text-white text-center shadow-lg bg-green-500"; // Adjusted top position to avoid navbar
+                        const formContainer = document.querySelector('form');
+                        formContainer.appendChild(successMessage);
+                        // Reset form after successful submission
+                        document.querySelector('form').reset(); // Reset form after successful submission
+                        // Remove message after 3 seconds
+                        setTimeout(() => {
+                            successMessage.remove();
+                        }, 3000);
                     })
-                    .catch(error => {
-                        console.error("Error sending email:", error);
-                        alert("Failed to send email. Please try again. (" + error + ")");
-                    });
-            });
+            })
+                .catch(error => {
+                    console.error("Error sending email:", error);
+                    // error msg
+                    const errorMessage = document.createElement('div');
+                    errorMessage.textContent = "Failed to send email. Please try again later.";
+                    errorMessage.className = "fixed top-20 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded-lg text-white text-center shadow-lg bg-red-500";
+                    const formContainer = document.querySelector('form');
+                    formContainer.appendChild(errorMessage);
+                    setTimeout(() => {
+                        errorMessage.remove();
+                    }, 3000); // Remove message after 3 seconds
+                });
         });
     </script>
 </body>
